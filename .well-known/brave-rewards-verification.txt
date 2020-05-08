@@ -1,4 +1,4 @@
 This is a Brave Rewards publisher verification file.
 
 Domain: shabeersha.github.io
-Token: 31d1874b2068468c929be52e064a9a92369fda1a25a13688cfcf7da39bfb2c9e
+Token: 5dc3f0033733224af54df15fbaf5fb8441213f5e27740b4c2aa8d52089ccc5b5
