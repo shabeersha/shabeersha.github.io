@@ -773,7 +773,9 @@
     // Enabling the debug mode flag is useful during implementation,
     // but it's recommended you remove it for production
     mixpanel.init('2f8fe385556c5989b9e1189a2a981f1a', {debug: true}); 
-    mixpanel.track('Sign up');
+    mixpanel.track(
+      new URLSearchParams(window.location.search).get('ref')
+    );
     </script>
 
 </body>
