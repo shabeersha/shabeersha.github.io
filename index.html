@@ -1,737 +1,875 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
+  <meta http-equiv="content-type" content="text/html; charset=UTF-8">
   <meta charset="utf-8">
-  <title>Shabeer Bin Khalid</title>
-  <meta content="width=device-width, initial-scale=1.0" name="viewport">
-  <meta content="Shabeer Bin Khalid,Techcodezz,shabeersha,shabeerali,Blogger,web developer,web designer,Front-end Developer" name="keywords">
-  <meta content="I'm Shabeer Bin Khalid. I'm Web Developer and Tech Blogger. I share Web Dvelopment tips and tricks depend on todays trend.  " name="description">
+  <meta name="viewport" content="width=device-width">
+  <meta property="og:description" content="Personal Website - Shabeerali">
+  <meta property="og:url" content="https://shabeersha.github.io/">
+  <meta property="og:type" content="website">
+  <meta property="og:image:alt" content="Personal Website - Shabeerali">
+  <meta property="og:image:type" content="image/jpeg">
+  <meta property="og:locale" content="en_US">
+  <meta property="og:site_name" content="Shabeerali">
+  <title>Shabeerali KT</title>
+  <meta name="robots" content="index,follow">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta property="og:title" content="Shabeerali KT">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <!-- <link rel="shortcut icon"
+    href="https://creatorspace.imgix.net/users/clieebp4i00hgqq01xrrrem7w/Gt4m4WVp2PkfZeoX-Shabeerali%2520KT.jpg?w=200&amp;h=200&amp;fit=crop"> -->
+  <meta name="next-head-count" content="18">
+  <script type="text/javascript" src="assets/90c229b9851d2c04fd70.js" async="" status="loaded"></script>
+  <script type="text/javascript" async="" src="assets/array.js"></script>
+  <script type="text/javascript" async="" src="assets/sdk.min.js"></script>
+  <script>
+    !function () {
+      var analytics = window.analytics = window.analytics || []; if (!analytics.initialize) if (analytics.invoked) window.console && console.error && console.error("Segment snippet included twice."); else {
+        analytics.invoked = !0; analytics.methods = ["trackSubmit", "trackClick", "trackLink", "trackForm", "pageview", "identify", "reset", "group", "track", "ready", "alias", "debug", "page", "once", "off", "on", "addSourceMiddleware", "addIntegrationMiddleware", "setAnonymousId", "addDestinationMiddleware"]; analytics.factory = function (e) { return function () { var t = Array.prototype.slice.call(arguments); t.unshift(e); analytics.push(t); return analytics } }; for (var e = 0; e < analytics.methods.length; e++) { var key = analytics.methods[e]; analytics[key] = analytics.factory(key) } analytics.load = function (key, e) { var t = document.createElement("script"); t.type = "text/javascript"; t.async = !0; t.src = "https://spc.bento.me/sdk.js/v1/" + key + "/sdk.min.js"; var n = document.getElementsByTagName("script")[0]; n.parentNode.insertBefore(t, n); analytics._loadOptions = e }; analytics._writeKey = "Do0frSxiT6guEuJ0aWvYnopI1ysyjAeB"; analytics._cdn = "https://spc.bento.me"; analytics.SNIPPET_VERSION = "4.15.3";
+        analytics.load("Do0frSxiT6guEuJ0aWvYnopI1ysyjAeB");
+      }
+    }();
+  </script>
+  <script>
+    !function (t, e) { var o, n, p, r; e.__SV || (window.posthog = e, e._i = [], e.init = function (i, s, a) { function g(t, e) { var o = e.split("."); 2 == o.length && (t = t[o[0]], e = o[1]), t[e] = function () { t.push([e].concat(Array.prototype.slice.call(arguments, 0))) } } (p = t.createElement("script")).type = "text/javascript", p.async = !0, p.src = s.api_host + "/static/array.js", (r = t.getElementsByTagName("script")[0]).parentNode.insertBefore(p, r); var u = e; for (void 0 !== a ? u = e[a] = [] : a = "posthog", u.people = u.people || [], u.toString = function (t) { var e = "posthog"; return "posthog" !== a && (e += "." + a), t || (e += " (stub)"), e }, u.people.toString = function () { return u.toString(1) + ".people (stub)" }, o = "capture identify alias people.set people.set_once set_config register register_once unregister opt_out_capturing has_opted_out_capturing opt_in_capturing reset isFeatureEnabled onFeatureFlags".split(" "), n = 0; n < o.length; n++)g(u, o[n]); e._i.push([i, s, a]) }, e.__SV = 1) }(document, window.posthog || []);
+    posthog.init('phc_G4AFfCmEbWIvWKNFZUKihi5tHhcISQXwlUazK2nLvA4', { api_host: 'https://app.posthog.com' })
+  </script>
+  <link rel="preconnect" href="https://fonts.googleapis.com/">
+  <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin="true">
+  <link rel="manifest" href="https://bento.me/site.webmanifest">
+  <link rel="mask-icon" href="https://bento.me/safari-pinned-tab.svg" color="#768CFF">
+  <meta name="msapplication-TileColor" content="#768CFF">
+  <meta name="theme-color" content="#ffffff">
+  <link href="assets/inter.css" rel="stylesheet">
+  <link href="assets/mapbox-gl.css" rel="stylesheet">
+  <link rel="preload" href="assets/b8a689e3ff2157ac.css" as="style">
+  <link rel="stylesheet" href="assets/b8a689e3ff2157ac.css" data-n-g="">
+  <link rel="preload" href="assets/f88756ba8b4b7098.css" as="style">
+  <link rel="stylesheet" href="assets/f88756ba8b4b7098.css" data-n-p=""><noscript
+    data-n-css=""></noscript>
+  <script defer="defer" nomodule="" src="assets/polyfills-c67a75d1b6f99dc8.js"></script>
+  <script src="assets/webpack-c6bea91a4d19205a.js" defer="defer"></script>
+  <script src="assets/framework-d6b15d8b3dd1dcdb.js" defer="defer"></script>
+  <script src="assets/main-2da2b1f6525027ba.js" defer="defer"></script>
+  <script src="assets/_app-802a442c73524902.js" defer="defer"></script>
+  <script src="assets/b155a556-2563bfd0c0314e19.js" defer="defer"></script>
+  <script src="assets/736-fc525af6d7db5aa7.js" defer="defer"></script>
+  <script src="assets/25-c16969475fbc89ce.js" defer="defer"></script>
+  <script src="assets/759-75aa9d2cc73403ce.js" defer="defer"></script>
+  <script src="assets/784-49cb5c7ebf2a2096.js" defer="defer"></script>
+  <script src="assets/879-57353426c45ce39a.js" defer="defer"></script>
+  <script src="assets/767-5bd06f5d607155e7.js" defer="defer"></script>
+  <script src="assets/891-60d48da67cfe9add.js" defer="defer"></script>
+  <script src="assets/739-2207c54279600aa6.js" defer="defer"></script>
+  <script src="assets/320-bd89c4a0b01f340c.js" defer="defer"></script>
+  <script src="assets/[handle]-422b06b016d23865.js" defer="defer"></script>
+  <script src="assets/_buildManifest.js" defer="defer"></script>
+  <script src="assets/_ssgManifest.js" defer="defer"></script>
+  <style id="__jsx-f5ceee4426fc8276">
+    :root {
+      --inter-font: "Inter", sans-serif
+    }
 
-  <!-- Favicons -->
-  <link href="https://image.flaticon.com/icons/svg/511/511139.svg" rel="icon">
-  <link href="https://image.flaticon.com/icons/svg/511/511139.svg" rel="apple-touch-icon">
+    html {
+      font-family: var(--inter-font)
+    }
+  </style>
+  <style id="_goober">
+    @keyframes go2264125279 {
+      from {
+        transform: scale(0) rotate(45deg);
+        opacity: 0;
+      }
 
-  <!-- Bootstrap CSS File -->
-  <link href="lib/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+      to {
+        transform: scale(1) rotate(45deg);
+        opacity: 1;
+      }
+    }
 
-  <!-- Libraries CSS Files -->
-  <link href="lib/font-awesome/css/font-awesome.min.css" rel="stylesheet">
-  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
-  <link href="lib/animate/animate.min.css" rel="stylesheet">
-  <link href="lib/ionicons/css/ionicons.min.css" rel="stylesheet">
-  <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
-  <link href="lib/lightbox/css/lightbox.min.css" rel="stylesheet">
+    @keyframes go3020080000 {
+      from {
+        transform: scale(0);
+        opacity: 0;
+      }
 
-  <!-- Main Stylesheet File -->
-  <link href="css/style.css" rel="stylesheet">
-  <meta name="p:domain_verify" content="e9fae97b184549a64fed795f4bd6ecdf"/>
-  <meta name="google-site-verification" content="yk5aTOEVN28VmNRlWJ3Ub7xkYlBziZwLCB5tBdtmFEE" />
-  <meta name="msvalidate.01" content="E10F26C93EFB04653A4C106595A64440" />
+      to {
+        transform: scale(1);
+        opacity: 1;
+      }
+    }
 
-  <!-- =======================================================
-    Theme Name: DevFolio
-    Theme URL: https://bootstrapmade.com/devfolio-bootstrap-portfolio-html-template/
-    Author: BootstrapMade.com
-    License: https://bootstrapmade.com/license/
-  ======================================================= -->
+    @keyframes go463499852 {
+      from {
+        transform: scale(0) rotate(90deg);
+        opacity: 0;
+      }
+
+      to {
+        transform: scale(1) rotate(90deg);
+        opacity: 1;
+      }
+    }
+
+    @keyframes go1268368563 {
+      from {
+        transform: rotate(0deg);
+      }
+
+      to {
+        transform: rotate(360deg);
+      }
+    }
+
+    @keyframes go1310225428 {
+      from {
+        transform: scale(0) rotate(45deg);
+        opacity: 0;
+      }
+
+      to {
+        transform: scale(1) rotate(45deg);
+        opacity: 1;
+      }
+    }
+
+    @keyframes go651618207 {
+      0% {
+        height: 0;
+        width: 0;
+        opacity: 0;
+      }
+
+      40% {
+        height: 0;
+        width: 6px;
+        opacity: 1;
+      }
+
+      100% {
+        opacity: 1;
+        height: 10px;
+      }
+    }
+
+    @keyframes go901347462 {
+      from {
+        transform: scale(0.6);
+        opacity: 0.4;
+      }
+
+      to {
+        transform: scale(1);
+        opacity: 1;
+      }
+    }
+
+    .go4109123758 {
+      z-index: 9999;
+    }
+
+    .go4109123758>* {
+      pointer-events: auto;
+    }
+  </style>
+  <style data-tiptap-style="">
+    .ProseMirror {
+      position: relative;
+    }
+
+    .ProseMirror {
+      word-wrap: break-word;
+      white-space: pre-wrap;
+      white-space: break-spaces;
+      -webkit-font-variant-ligatures: none;
+      font-variant-ligatures: none;
+      font-feature-settings: "liga" 0;
+      /* the above doesn't seem to work in Edge */
+    }
+
+    .ProseMirror [contenteditable="false"] {
+      white-space: normal;
+    }
+
+    .ProseMirror [contenteditable="false"] [contenteditable="true"] {
+      white-space: pre-wrap;
+    }
+
+    .ProseMirror pre {
+      white-space: pre-wrap;
+    }
+
+    img.ProseMirror-separator {
+      display: inline !important;
+      border: none !important;
+      margin: 0 !important;
+      width: 1px !important;
+      height: 1px !important;
+    }
+
+    .ProseMirror-gapcursor {
+      display: none;
+      pointer-events: none;
+      position: absolute;
+      margin: 0;
+    }
+
+    .ProseMirror-gapcursor:after {
+      content: "";
+      display: block;
+      position: absolute;
+      top: -2px;
+      width: 20px;
+      border-top: 1px solid black;
+      animation: ProseMirror-cursor-blink 1.1s steps(2, start) infinite;
+    }
+
+    @keyframes ProseMirror-cursor-blink {
+      to {
+        visibility: hidden;
+      }
+    }
+
+    .ProseMirror-hideselection *::selection {
+      background: transparent;
+    }
+
+    .ProseMirror-hideselection *::-moz-selection {
+      background: transparent;
+    }
+
+    .ProseMirror-hideselection * {
+      caret-color: transparent;
+    }
+
+    .ProseMirror-focused .ProseMirror-gapcursor {
+      display: block;
+    }
+
+    .tippy-box[data-animation=fade][data-state=hidden] {
+      opacity: 0
+    }
+  </style>
 </head>
 
-<body id="page-top">
-
-  <!--/ Nav Star /-->
-  <nav class="navbar navbar-b navbar-trans navbar-expand-md fixed-top" id="mainNav">
-    <div class="container">
-      <a class="navbar-brand js-scroll" href="#page-top">Techcodezz</a>
-      <button class="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#navbarDefault"
-        aria-controls="navbarDefault" aria-expanded="false" aria-label="Toggle navigation">
-        <span></span>
-        <span></span>
-        <span></span>
-      </button>
-      <div class="navbar-collapse collapse justify-content-end" id="navbarDefault">
-        <ul class="navbar-nav">
-          <li class="nav-item">
-            <a class="nav-link js-scroll active" href="#home">Home</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link js-scroll" href="#about">About</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link js-scroll" href="#service">Services</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link js-scroll" href="#work">Work</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link js-scroll" href="blog/index.html">Blog</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link js-scroll" href="#contact">Contact</a>
-          </li>
-        </ul>
-      </div>
-    </div>
-  </nav>
-  <!--/ Nav End /-->
-
-  <!--/ Intro Skew Star /-->
-  <div id="home" class="intro route bg-image" style="background-image: url(img/intro-bg.jpg)">
-    <div class="overlay-itro"></div>
-    <div class="intro-content display-table">
-      <div class="table-cell">
-        <div class="container">
-          <!--<p class="display-6 color-d">Hello, world!</p>-->
-          <h1 class="intro-title mb-4">I'm Shabeer Bin Khalid</h1>
-          <p class="intro-subtitle"><span class="text-slider-items">Founder Techcodezz , Web Developer ,Web Designer , Frontend Developer , Blogger </span><strong class="text-slider"></strong></p>
-          <!-- <p class="pt-3"><a class="btn btn-primary btn js-scroll px-4" href="#about" role="button">Learn More</a></p> -->
-        </div>
-      </div>
-    </div>
-  </div>
-  <!--/ Intro Skew End /-->
-
-  <section id="about" class="about-mf sect-pt4 route">
-    <div class="container">
-      <div class="row">
-        <div class="col-sm-12">
-          <div class="box-shadow-full">
-            <div class="row">
-              <div class="col-md-6">
-                <div class="row">
-                  <div class="col-sm-6 col-md-5">
-                    <div class="about-img">
-                      <img src="img/dp.jpg" class="img-fluid rounded b-shadow-a" alt="">
-                    </div>
-                  </div>
-                  <div class="col-sm-6 col-md-7">
-                    <div class="about-info">
-                      <p><span class="title-s">Name: </span> <span>Shabeer Bin Khallid</span></p>
-                      <p><span class="title-s">Profile: </span> <span>Full Stack Developer</span></p>
-                      <p><span class="title-s">Email: </span> <span><a href="mailto:shabeersha717@gmail.com">Shabeersha717@gmail.com</a></span></p>
-                      <p><span class="title-s">Phone: </span> <span><a href="tel:+919645198568"> (+91) 9645 198 568</a></span></p>
-                    </div>
+<body>
+  <div id="__next">
+    <div data-dummy="true"></div>
+    <main class="min-full-screen flex flex-col items-center justify-center">
+      <div class="min-full-screen flex w-full max-w-[1728px] flex-col">
+        <div class="relative flex min-h-screen w-full flex-1 flex-col items-center">
+          <div
+            class="flex h-full w-full max-w-[428px] items-center justify-center p-6 pt-12 pb-0 xl:absolute xl:top-0 xl:max-w-[min(100vw,1728px)] xl:items-stretch xl:justify-start xl:p-16">
+            <div class="flex w-full flex-col px-4 xl:mr-20 xl:flex-1 xl:px-0">
+              <div class="relative xl:sticky xl:top-16"
+                style="opacity: 1; transform: translate(0px); transition: opacity 1s cubic-bezier(0.42, 0, 0.25, 1) 0s, transform 1s cubic-bezier(0.2, 1.18, 0.47, 1) 0s;">
+                <div data-avatar="true" class="s-[120px] xl:s-[184px]"
+                  style="transform: rotateZ(0deg); transition: transform 1s cubic-bezier(0.2, 1.18, 0.47, 1) 0s;">
+                  <div class="styles_avatar__Qe60n styles_avatar--circle__7p3KY s-full"><img
+                      src="assets/Gt4m4WVp2PkfZeoX-Shabeerali%2520KT.jpg" alt="avatar">
+                    <div class="pointer-events-none absolute inset-0 rounded-[inherit] phantom-border"></div>
                   </div>
                 </div>
-                <div class="skill-mf">
-                  <p class="title-s">Skill</p>
-                  <span>HTML</span> <span class="pull-right">98%</span>
-                  <div class="progress">
-                    <div class="progress-bar" role="progressbar" style="width: 98%;" aria-valuenow="98" aria-valuemin="0"
-                      aria-valuemax="100"></div>
+                <div
+                  class="ml-2 w-[calc(100%-8px)] max-w-[min(500px,100%-8px)] xl:max-w-[min(500px,calc(100vw_-_1000px))] mt-8">
+                  <div class="text-[32px] font-bold leading-[120%] tracking-[-1px] xl:text-[44px] xl:tracking-[-2px]">
+                    <div class="rt-editor">Shabeerali KT</div>
                   </div>
-                  <span>CSS3</span> <span class="pull-right">75%</span>
-                  <div class="progress">
-                    <div class="progress-bar" role="progressbar" style="width: 75%" aria-valuenow="75" aria-valuemin="0"
-                      aria-valuemax="100"></div>
+                  <div class="mt-3 text-[#565656] xl:mt-3 xl:text-xl">
+                    <div class="styles_bio__oMe8p">
+                      <div class="text-black/30"></div>
+                    </div>
                   </div>
-                  <span>Node.js</span> <span class="pull-right">50%</span>
-                  <div class="progress">
-                    <div class="progress-bar" role="progressbar" style="width: 50%" aria-valuenow="50" aria-valuemin="0"
-                      aria-valuemax="100"></div>
-                  </div>
-                  <span>JAVASCRIPT</span> <span class="pull-right">80%</span>
-                  <div class="progress">
-                    <div class="progress-bar" role="progressbar" style="width: 80%" aria-valuenow="80" aria-valuemin="0"
-                      aria-valuemax="100"></div>
-                  </div>
-                  <span>C</span> <span class="pull-right">50%</span>
-                  <div class="progress">
-                    <div class="progress-bar" role="progressbar" style="width: 50%" aria-valuenow="50" aria-valuemin="0"
-                         aria-valuemax="100"></div>
-                  </div>
-                </div>
-              </div>
-              <div class="col-md-6">
-                <div class="about-me pt-4 pt-md-0">
-                  <div class="title-box-2">
-                    <h5 class="title-left">
-                      About me
-                    </h5>
-                  </div>
-                  <p class="lead">
-                      A competent and committed Web Design and Development graduate looking for a rewarding 
-                    career in the Information Technology sector. Highly focused with a comprehensive knowledge 
-                    of designing and developing the layout, visual appearance and usability of a website. 
-                    Possessing a proven track record of completing projects from the concept through to design,
-                    testing, and handover.
-                </p>
-                  <p class="lead">
-                     Eager to learn, easy-going by nature and able to get along with both work colleagues and senior
-                    managers. Currently looking for a suitable graduate web developer position with a progressive employer.  
-                  </p>
-                  <p class="lead">
-                      Currently gaining experience and building up valuable skills with a web design company. 
-                    By working on a portfolio of exciting web projects for their clients, who are based across the World.
-
-                  </p>
                 </div>
               </div>
             </div>
           </div>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <!--/ Section Services Star /-->
-  <section id="service" class="services-mf route">
-    <div class="container">
-      <div class="row">
-        <div class="col-sm-12">
-          <div class="title-box text-center">
-            <h3 class="title-a">
-              Services
-            </h3>
-            <p class="subtitle-a">
-              Services Provided by Me,Passionate worker.
-            </p>
-            <div class="line-mf"></div>
-          </div>
-        </div>
-      </div>
-      <div class="row">
-        <div class="col-md-4">
-          <div class="service-box">
-            <div class="service-ico">
-              <span class="ico-circle"><i class="ion-monitor"></i></span>
-            </div>
-            <div class="service-content">
-              <h2 class="s-title">Web Design</h2>
-              <p class="s-description text-center">
-                As the quote aptly states "You never get a second chance to make a first impression".
-                Graphics and Branding are all about making an impact, that’s what we will achieve together.
-
-              </p>
-            </div>
-          </div>
-        </div>
-        <div class="col-md-4">
-          <div class="service-box">
-            <div class="service-ico">
-              <span class="ico-circle"><i class="ion-code-working"></i></span>
-            </div>
-            <div class="service-content">
-              <h2 class="s-title">Web Development</h2>
-              <p class="s-description text-center">
-                My web designing is professional and effective,
-                that would give you a platform to share your vision where
-                you enhance and expand your business.
-              </p>
-            </div>
-          </div>
-        </div>
-        <div class="col-md-4">
-          <div class="service-box">
-            <div class="service-ico">
-              <span class="ico-circle " ><i class="fab fa-redhat "></i></span>
-            </div>
-            <div class="service-content">
-              <h2 class="s-title">White Services</h2>
-              <p class="s-description text-center">
-                We provide website security consulting,
-                vulnerability and penetration testing web applications,
-                including e-commerce and WordPress.
-              </p>
-            </div>
-          </div>
-        </div>
-        <div class="col-md-4">
-          <div class="service-box">
-            <div class="service-ico">
-              <span class="ico-circle"><i class="ion-android-phone-portrait"></i></span>
-            </div>
-            <div class="service-content">
-              <h2 class="s-title">Responsive Design</h2>
-              <p class="s-description text-center">
-                My web designing is professional and effective,
-                that would give you a platform to share your vision where
-                you enhance and expand your business.<br>
-              </p>
-            </div>
-          </div>
-        </div>
-        <div class="col-md-4">
-          <div class="service-box">
-            <div class="service-ico">
-              <span class="ico-circle"><i class="ion-paintbrush"></i></span>
-            </div>
-            <div class="service-content">
-              <h2 class="s-title">Graphic Design</h2>
-              <p class="s-description text-center">
-                The most important factor is to get the visual appeal of your product and 
-                to get customers indulgence on the website, as new visitor wish to grab 
-                information quickly which can evoke the real interaction, they will not 
-                intend to spend time in the ambiguous and driveling website.
-              </p>
-            </div>
-          </div>
-        </div>
-        <div class="col-md-4">
-          <div class="service-box">
-            <div class="service-ico">
-              <span class="ico-circle"><i class="ion-stats-bars"></i></span>
-            </div>
-            <div class="service-content">
-              <h2 class="s-title">SEO Services</h2>
-              <p class="s-description text-center">
-                A well-equipped team of experts will work towards applying techniques to increase the number
-                of visitors to your website. Guaranteeing you with the maximum hits to result to flourish the business.
-              </p>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-  <!--/ Section Services End /-->
-
-  <div class="section-counter paralax-mf bg-image" style="background-image: url(img/counters-bg.jpg)">
-    <div class="overlay-mf"></div>
-    <div class="container">
-      <div class="row">
-        <div class="col-sm-3 col-lg-3">
-          <div class="counter-box">
-            <div class="counter-ico">
-              <span class="ico-circle"><i class="ion-checkmark-round"></i></span>
-            </div>
-            <div class="counter-num">
-              <p class="counter">150</p>
-              <span class="counter-text">WORKS COMPLETED</span>
-            </div>
-          </div>
-        </div>
-        <div class="col-sm-3 col-lg-3">
-          <div class="counter-box pt-4 pt-md-0">
-            <div class="counter-ico">
-              <span class="ico-circle"><i class="ion-ios-calendar-outline"></i></span>
-            </div>
-            <div class="counter-num">
-              <p class="counter">3</p>
-              <span class="counter-text">YEARS OF EXPERIENCE</span>
-            </div>
-          </div>
-        </div>
-        <div class="col-sm-3 col-lg-3">
-          <div class="counter-box pt-4 pt-md-0">
-            <div class="counter-ico">
-              <span class="ico-circle"><i class="ion-ios-people"></i></span>
-            </div>
-            <div class="counter-num">
-              <p class="counter">105</p>
-              <span class="counter-text">TOTAL CLIENTS</span>
-            </div>
-          </div>
-        </div>
-        <div class="col-sm-3 col-lg-3">
-          <div class="counter-box pt-4 pt-md-0">
-            <div class="counter-ico">
-              <span class="ico-circle"><i class="ion-ribbon-a"></i></span>
-            </div>
-            <div class="counter-num">
-              <p class="counter">36</p>
-              <span class="counter-text">AWARD WON</span>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-
-  <!--/ Section Portfolio Star /-->
-  <section id="work" class="portfolio-mf sect-pt4 route">
-    <div class="container">
-      <div class="row">
-        <div class="col-sm-12">
-          <div class="title-box text-center">
-            <h3 class="title-a">
-              Gallery
-            </h3>
-            <p class="subtitle-a">
-              &quot;<b>You </b>don't take  a photograph,<b>You</b> make it &quot;
-            </p>
-            <div class="line-mf"></div>
-          </div>
-        </div>
-      </div>
-      <div class="row">
-        <div class="col-md-4">
-          <div class="work-box">
-            <a href="img/work-1.jpg" data-lightbox="gallery-mf">
-              <div class="work-img">
-                <img src="img/work-1.jpg" alt="" class="img-fluid">
-              </div>
-              <div class="work-content">
-                <div class="row">
-                  <div class="col-sm-8">
-                    <h2 class="w-title"></h2>
-                    <div class="w-more">
-                      <span class="w-ctegory"></span> / <span class="w-date">11 Nov. 2018</span>
-                    </div>
-                  </div>
-                  <div class="col-sm-4">
-                    <div class="w-like">
-                      <span class="ion-ios-plus-outline"></span>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </a>
-          </div>
-        </div>
-        <div class="col-md-4">
-          <div class="work-box">
-            <a href="img/work-2.jpg" data-lightbox="gallery-mf">
-              <div class="work-img">
-                <img src="img/work-2.jpg" alt="" class="img-fluid">
-              </div>
-              <div class="work-content">
-                <div class="row">
-                  <div class="col-sm-8">
-                    <h2 class="w-title"></h2>
-                    <div class="w-more">
-                      <span class="w-ctegory"></span> / <span class="w-date">18 Nov. 2017</span>
-                    </div>
-                  </div>
-                  <div class="col-sm-4">
-                    <div class="w-like">
-                      <span class="ion-ios-plus-outline"></span>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </a>
-          </div>
-        </div>
-        <div class="col-md-4">
-          <div class="work-box">
-            <a href="img/work-3.jpg" data-lightbox="gallery-mf">
-              <div class="work-img">
-                <img src="img/work-3.jpg" alt="" class="img-fluid">
-              </div>
-              <div class="work-content">
-                <div class="row">
-                  <div class="col-sm-8">
-                    <h2 class="w-title"></h2>
-                    <div class="w-more">
-                      <span class="w-ctegory"></span> / <span class="w-date">13 Mar. 2018</span>
-                    </div>
-                  </div>
-                  <div class="col-sm-4">
-                    <div class="w-like">
-                      <span class="ion-ios-plus-outline"></span>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </a>
-          </div>
-        </div>
-        <div class="col-md-4">
-          <div class="work-box">
-            <a href="img/work-4.jpg" data-lightbox="gallery-mf">
-              <div class="work-img">
-                <img src="img/work-4.jpg" alt="" class="img-fluid">
-              </div>
-              <div class="work-content">
-                <div class="row">
-                  <div class="col-sm-8">
-                    <h2 class="w-title"></h2>
-                    <div class="w-more">
-                      <span class="w-ctegory"></span> / <span class="w-date">15 May. 2018</span>
-                    </div>
-                  </div>
-                  <div class="col-sm-4">
-                    <div class="w-like">
-                      <span class="ion-ios-plus-outline"></span>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </a>
-          </div>
-        </div>
-        <div class="col-md-4">
-          <div class="work-box">
-            <a href="img/work-5.jpg" data-lightbox="gallery-mf">
-              <div class="work-img">
-                <img src="img/work-5.jpg" alt="" class="img-fluid">
-              </div>
-              <div class="work-content">
-                <div class="row">
-                  <div class="col-sm-8">
-                    <h2 class="w-title"></h2>
-                    <div class="w-more">
-                      <span class="w-ctegory"></span> / <span class="w-date">22 Dec. 2018</span>
-                    </div>
-                  </div>
-                  <div class="col-sm-4">
-                    <div class="w-like">
-                      <span class="ion-ios-plus-outline"></span>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </a>
-          </div>
-        </div>
-        <div class="col-md-4">
-          <div class="work-box">
-            <a href="img/work-6.jpg" data-lightbox="gallery-mf">
-              <div class="work-img">
-                <img src="img/work-6.jpg" alt="" class="img-fluid">
-              </div>
-              <div class="work-content">
-                <div class="row">
-                  <div class="col-sm-8">
-                    <h2 class="w-title"></h2>
-                    <div class="w-more">
-                      <span class="w-ctegory"></span> / <span class="w-date">18 Sep. 2017</span>
-                    </div>
-                  </div>
-                  <div class="col-sm-4">
-                    <div class="w-like">
-                      <span class="ion-ios-plus-outline"></span>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </a>
-          </div>
-        </div>
-        
-      </div>
-    </div>
-  </section>
-  <!--/ Section Portfolio End /-->
-
-  <!--/ Section Testimonials Star /-->
-  <div class="testimonials paralax-mf bg-image" style="background-image: url(img/overlay-bg.jpg)">
-    <div class="overlay-mf"></div>
-    <div class="container">
-      <div class="row">
-        <div class="col-md-12">
-          <div id="testimonial-mf" class="owl-carousel owl-theme">
-            <div class="testimonial-box">
-              <div class="author-test">
-                <img src="img/jaseel1.jpg" alt="" class="rounded-circle b-shadow-a">
-                <span class="author">Jaseel</span>
-              </div>
-              <div class="content-test">
-                <p class="description lead">
-                  We have the fortune of working with Ian on a very regular basis. Every single project is done in a
-                  timely fashion and is delivered exactly as is outlined. Beyond that, his development skills and expertise
-                  make him an invaluable part of our process. We absolutely offer our highest possible recommendation.
-                </p>
-                <span class="comit"><i class="fa fa-quote-right"></i></span>
-              </div>
-            </div>
-            <div class="testimonial-box">
-              <div class="author-test">
-                <img src="img/hadi.jpg" alt="" class="rounded-circle b-shadow-a">
-                <span class="author">Abdul Hadi</span>
-              </div>
-              <div class="content-test">
-                <p class="description lead">
-                    Shabeer has done a fantastic job overall. Not only the site is to design and 
-                  code is very clean and slick. Love the way he achieved the translations
-                    portion of the site.
-                </p>
-                <span class="comit"><i class="fa fa-quote-right"></i></span>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-
-  <!--/ Section Blog Star /-->
-  <section id="blog" class="blog-mf sect-pt4 route">
-    <div class="container">
-      <div class="row">
-        <div class="col-sm-12">
-          <div class="title-box text-center">
-            <h3 class="title-a">
-              Blog
-            </h3>
-            <p class="subtitle-a">
-              I would like to write,Sharing is Caring,
-            </p>
-            <div class="line-mf"></div>
-          </div>
-        </div>
-      </div>
-      <div class="row">
-        <div class="col-md-4">
-          <div class="card card-blog">
-            <div class="card-img">
-              <a href="https://www.techcodezz.ooo"><img src="img/post-1.jpg" alt="" class="img-fluid"></a>
-            </div>
-            <div class="card-body">
-              <div class="card-category-box">
-                <div class="card-category">
-                  <h6 class="category">Travel</h6>
-                </div>
-              </div>
-              <h3 class="card-title"><a href="https://www.techcodezz.ooo">See more ideas about Travel</a></h3>
-              <p class="card-description">
-                &quot;Man cannot discover new oceans unless he has the courage to lose sight of the shore. &quot;
-              </p>
-            </div>
-            <div class="card-footer">
-              <div class="post-author">
-                <a href="#">
-                  <img src="img/dp.jpg" alt="" class="avatar rounded-circle">
-                  <span class="author">Shabeer Bin Khalid</span>
-                </a>
-              </div>
-              <div class="post-date">
-                <span class="ion-ios-clock-outline"></span> 10 min
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="col-md-4">
-          <div class="card card-blog">
-            <div class="card-img">
-              <a href="https://www.techcodezz.ooo"><img src="img/post-2.jpg" alt="" class="img-fluid"></a>
-            </div>
-            <div class="card-body">
-              <div class="card-category-box">
-                <div class="card-category">
-                  <h6 class="category">Food Hunting</h6>
-                </div>
-              </div>
-              <h3 class="card-title"><a href="https://www.techcodezz.ooo/">See more ideas about Food Hunting</a></h3>
-              <p class="card-description">
-                If more of us valued food and cheer and song above hoarded gold, it would be a merrier world.
-              </p>
-            </div>
-            <div class="card-footer">
-              <div class="post-author">
-                <a href="#">
-                  <img src="img/dp.jpg" alt="" class="avatar rounded-circle">
-                  <span class="author">Shabeer Bin Khalid</span>
-                </a>
-              </div>
-              <div class="post-date">
-                <span class="ion-ios-clock-outline"></span> 10 min
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="col-md-4">
-          <div class="card card-blog">
-            <div class="card-img">
-              <a href="https://www.techcodezz.ooo/"><img src="img/post-3.jpg" alt="" class="img-fluid"></a>
-            </div>
-            <div class="card-body">
-              <div class="card-category-box">
-                <div class="card-category">
-                  <h6 class="category">Technology</h6>
-                </div>
-              </div>
-              <h3 class="card-title"><a href="https://www.techcodezz.ooo/">See more ideas about Technology</a></h3>
-              <p class="card-description">
-                Success in creating AI would be the biggest event in human history. Unfortunately, it might also be the last, unless we learn how to avoid the risks.
-
-              </p>
-            </div>
-            <div class="card-footer">
-              <div class="post-author">
-                <a href="#">
-                  <img src="img/dp.jpg" alt="" class="avatar rounded-circle">
-                  <span class="author">Shabeer Bin Khalid</span>
-                </a>
-              </div>
-              <div class="post-date">
-                <span class="ion-ios-clock-outline"></span> 10 min
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-  <!--/ Section Blog End /-->
-
-  <!--/ Section Contact-Footer Star /-->
-  <section class="paralax-mf footer-paralax bg-image sect-mt4 route" style="background-image: url(img/overlay-bg.jpg)">
-    <div class="overlay-mf"></div>
-    <div class="container">
-      <div class="row">
-        <div class="col-sm-12">
-          <div class="contact-mf">
-            <div id="contact" class="box-shadow-full">
-              <div class="row">
-                <div class="col-md-6">
-                  <div class="title-box-2">
-                    <h5 class="title-left">
-                      Send Message Us
-                    </h5>
-                  </div>
-                  <div>
-                      <form action="mailto:shabeersha717@gmail.com" method="post" role="form" class="contactForm">
-                      <div id="sendmessage">Your message has been sent. Thank you!</div>
-                      <div id="errormessage">Your message has been failed to send</div>
-                      <div class="row">
-                        <div class="col-md-12 mb-3">
-                          <div class="form-group">
-                            <input type="text" name="name" class="form-control" id="name" placeholder="Your Name" data-rule="minlen:4" data-msg="Please enter at least 4 chars" />
-                            <div class="validation"></div>
-                          </div>
-                        </div>
-                        <div class="col-md-12 mb-3">
-                          <div class="form-group">
-                            <input type="email" class="form-control" name="email" id="email" placeholder="Your Email" data-rule="email" data-msg="Please enter a valid email" />
-                            <div class="validation"></div>
-                          </div>
-                        </div>
-                        <div class="col-md-12 mb-3">
-                            <div class="form-group">
-                              <input type="text" class="form-control" name="subject" id="subject" placeholder="Subject" data-rule="minlen:4" data-msg="Please enter at least 8 chars of subject" />
-                              <div class="validation"></div>
+          <div class="flex h-full w-full max-w-[428px] flex-1 flex-col p-6 pt-0 xl:max-w-[1728px] xl:flex-row xl:p-16"
+            >
+            <div class="mb-10 flex flex-col px-4 xl:mb-0 xl:mr-20 xl:flex-1 xl:px-0"></div>
+            <div class="relative flex-1 xl:w-[820px] xl:flex-none" data-grid-dropzone="true">
+              <div class="bento-grid">
+                <div class="bento-grid__content" style="opacity: 1; height: 1225px;">
+                  <div class="bento-grid__item" data-id="MHXbAZTxIuLdzuVH"
+                    style="will-change: transform; position: absolute; left: 0px; top: 0px; width: 175px; --widget-unit-w: 1; --widget-unit-h: 1; --widget-width-val: 175; --widget-width: 175px; height: 390px; --widget-height-val: 390; --widget-height: 390px; display: flex; flex-direction: column; transform: translate(0px);">
+                    <div data-item-content="true" class="bento-item__content"
+                      style="will-change: transform; opacity: 1; transform: scale(1) translateY(0px);"><a
+                        class="styles_widget___JC_t styles_widget--rounding-md__rZYhh styles_widget--bordered__eKEvv styles_widget--elevated__5whS8 styles_widget--hover-elevated__ru_L1 styles_widget--clickable__zPkxQ styles_widget--highlight-partial__40XJd"
+                        style="--widget-color:#55ACEE;--widget-color-bg:#F5FAFE;--widget-color-hover:#F0F7FD;--widget-color-active:#E9F4FC"
+                        href="https://twitter.com/techcodezz" target="_blank" rel="noopener noreferrer"
+                        draggable="false" tabindex="0">
+                        <div class="styles_widget__clip__417b_ no-scrollbar" data-widget-clip="true">
+                          <div
+                            class="styles_widget__content__GAekn styles_widget__content--snap__v7zti styles_link-widget-base__zEwMR">
+                            <div class="styles_link-widget___Cd4d styles_link-widget--4x2__xAkeL">
+                              <div class="styles_description__FRpZD">
+                                <div class="flex items-start">
+                                  <div class="relative styles_icon__5o5__"><svg width="16" height="16"
+                                      class="h-full w-full" viewBox="0 0 40 40" fill="none"
+                                      xmlns="http://www.w3.org/2000/svg">
+                                      <rect width="40" height="40" rx="10" fill="#55ACEE"></rect>
+                                      <mask id="mask0_920_2751" style="mask-type:luminance" maskUnits="userSpaceOnUse"
+                                        x="8" y="10" width="24" height="20">
+                                        <path d="M31.9309 10.2326H8V29.6807H31.9309V10.2326Z" fill="white"></path>
+                                      </mask>
+                                      <g mask="url(#mask0_920_2751)">
+                                        <path
+                                          d="M31.9309 12.5347C31.0506 12.9253 30.1043 13.1891 29.1112 13.3078C30.1248 12.7002 30.9034 11.7381 31.27 10.5915C30.3211 11.1543 29.2704 11.5628 28.152 11.7829C27.2565 10.8287 25.9806 10.2326 24.5684 10.2326C21.857 10.2326 19.6586 12.4307 19.6586 15.1421C19.6586 15.5269 19.702 15.9017 19.7858 16.261C15.7053 16.0563 12.0876 14.1016 9.66603 11.1312C9.24342 11.8563 9.00123 12.6996 9.00123 13.5994C9.00123 15.3028 9.86801 16.8056 11.1854 17.686C10.3806 17.6605 9.62356 17.4396 8.96163 17.0719C8.96107 17.0924 8.96107 17.113 8.96107 17.1337C8.96107 19.5124 10.6535 21.4967 12.8995 21.948C12.4876 22.0602 12.0538 22.1202 11.606 22.1202C11.2897 22.1202 10.9822 22.0893 10.6823 22.032C11.3071 23.9826 13.1203 25.4021 15.2688 25.4416C13.5885 26.7585 11.4716 27.5434 9.17118 27.5434C8.77489 27.5434 8.38409 27.5201 8 27.4747C10.1728 28.8679 12.7535 29.6807 15.5262 29.6807C24.5569 29.6807 29.4955 22.1995 29.4955 15.7113C29.4955 15.4985 29.4906 15.2868 29.4813 15.0761C30.4404 14.384 31.2727 13.5194 31.9309 12.5347Z"
+                                          fill="white"></path>
+                                      </g>
+                                    </svg>
+                                    <div class="pointer-events-none absolute inset-0 rounded-[inherit] phantom-border">
+                                    </div>
+                                  </div>
+                                </div>
+                                <div class="styles_link-meta__container__K1H22">
+                                  <div class="styles_title___sgwe">Twitter</div>
+                                  <div class="styles_handle__GaWZ1">@techcodezz</div>
+                                </div>
+                                <div data-prevent-widget="true" data-rich-button="true" role="button"
+                                  class="styles_follow-button__8DSDT">Follow</div>
+                              </div>
                             </div>
-                        </div>
-                        <div class="col-md-12 mb-3">
-                          <div class="form-group">
-                            <textarea class="form-control" name="message" rows="5" data-rule="required" data-msg="Please write something for us" placeholder="Message"></textarea>
-                            <div class="validation"></div>
                           </div>
                         </div>
-                        <div class="col-md-12">
-                          <button type="submit" class="button button-a button-big button-rouded">Send Message</button>
+                        <div class="styles_widget__border__mnIDF"></div>
+                        <div class="styles_widget__border-highlight__wP_ik"></div>
+                      </a></div>
+                  </div>
+                  <div class="bento-grid__item" data-id="my4VMA8JCbyqmJX3"
+                    style="will-change: transform; position: absolute; left: 0px; top: 0px; width: 390px; --widget-unit-w: 1; --widget-unit-h: 1; --widget-width-val: 390; --widget-width: 390px; height: 390px; --widget-height-val: 390; --widget-height: 390px; display: flex; flex-direction: column; transform: translate(215px);">
+                    <div data-item-content="true" class="bento-item__content"
+                      style="will-change: transform; opacity: 1; transform: scale(1) translateY(0px);"><a
+                        class="styles_widget___JC_t styles_widget--rounding-lg__bZFfd styles_widget--bordered__eKEvv styles_widget--elevated__5whS8 styles_widget--hover-elevated__ru_L1 styles_widget--clickable__zPkxQ styles_widget--highlight-partial__40XJd"
+                        style="--widget-color:#CE3B9F;--widget-color-bg:#FFFFFF;--widget-color-hover:#FBFBFB;--widget-color-active:#EFEFEF"
+                        href="https://instagram.com/shabeer_bin_khalid" target="_blank" rel="noopener noreferrer"
+                        draggable="false" tabindex="1">
+                        <div class="styles_widget__clip__417b_ no-scrollbar" data-widget-clip="true">
+                          <div
+                            class="styles_widget__content__GAekn styles_widget__content--snap__v7zti styles_link-widget-base__zEwMR">
+                            <div class="styles_link-widget__xWP2R styles_link-widget--4x4__MIXyu">
+                              <div class="styles_description__SueNV">
+                                <div class="flex items-start w-full">
+                                  <div class="relative styles_icon__5o5__"><svg width="16" height="16"
+                                      class="h-full w-full" viewBox="0 0 40 40" fill="none"
+                                      xmlns="http://www.w3.org/2000/svg">
+                                      <rect width="40" height="40" rx="10" fill="black"></rect>
+                                      <rect x="0.5" y="0.5" width="39" height="39" rx="9.5" stroke="black"
+                                        stroke-opacity="0.08"></rect>
+                                      <mask id="mask0_920_2754" style="mask-type:alpha" maskUnits="userSpaceOnUse" x="0"
+                                        y="0" width="40" height="40">
+                                        <rect width="40" height="40" rx="10" fill="black"></rect>
+                                        <rect x="0.5" y="0.5" width="39" height="39" rx="9.5" stroke="black"
+                                          stroke-opacity="0.08"></rect>
+                                      </mask>
+                                      <g mask="url(#mask0_920_2754)">
+                                        <path
+                                          d="M20.0066 0C11.6568 0 9.21475 0.0086138 8.74007 0.0479912C7.02654 0.190427 5.96027 0.460223 4.79864 1.03858C3.90342 1.48311 3.1974 1.9984 2.5006 2.72073C1.2316 4.03803 0.462513 5.65865 0.184103 7.58507C0.0487432 8.52028 0.0093658 8.71101 0.00136727 13.488C-0.00170909 15.0803 0.00136727 17.1759 0.00136727 19.9868C0.00136727 28.3299 0.0105963 30.7694 0.050589 31.2432C0.189025 32.9106 0.450515 33.9596 1.00426 35.1071C2.06253 37.3036 4.08369 38.9525 6.46479 39.5678C7.28926 39.7801 8.19986 39.897 9.36888 39.9524C9.86417 39.9739 14.9125 39.9893 19.9639 39.9893C25.0152 39.9893 30.0666 39.9831 30.5496 39.9585C31.9032 39.8948 32.6892 39.7893 33.5583 39.5647C34.7389 39.262 35.8392 38.7051 36.7824 37.933C37.7255 37.161 38.4888 36.1924 39.0188 35.0948C39.5618 33.975 39.8371 32.886 39.9617 31.3056C39.9888 30.9611 40.0002 25.4676 40.0002 19.9816C40.0002 14.4946 39.9879 9.01127 39.9608 8.66671C39.8347 7.06086 39.5593 5.98105 38.9988 4.83973C38.5389 3.90544 38.0282 3.20772 37.2868 2.49431C35.964 1.23054 34.3458 0.461454 32.4173 0.183351C31.483 0.0482988 31.2968 0.00830617 26.5162 0H20.0066Z"
+                                          fill="url(#paint0_radial_920_2754)"></path>
+                                        <path
+                                          d="M20.0066 0C11.6568 0 9.21475 0.0086138 8.74007 0.0479912C7.02654 0.190427 5.96027 0.460223 4.79864 1.03858C3.90342 1.48311 3.1974 1.9984 2.5006 2.72073C1.2316 4.03803 0.462513 5.65865 0.184103 7.58507C0.0487432 8.52028 0.0093658 8.71101 0.00136727 13.488C-0.00170909 15.0803 0.00136727 17.1759 0.00136727 19.9868C0.00136727 28.3299 0.0105963 30.7694 0.050589 31.2432C0.189025 32.9106 0.450515 33.9596 1.00426 35.1071C2.06253 37.3036 4.08369 38.9525 6.46479 39.5678C7.28926 39.7801 8.19986 39.897 9.36888 39.9524C9.86417 39.9739 14.9125 39.9893 19.9639 39.9893C25.0152 39.9893 30.0666 39.9831 30.5496 39.9585C31.9032 39.8948 32.6892 39.7893 33.5583 39.5647C34.7389 39.262 35.8392 38.7051 36.7824 37.933C37.7255 37.161 38.4888 36.1924 39.0188 35.0948C39.5618 33.975 39.8371 32.886 39.9617 31.3056C39.9888 30.9611 40.0002 25.4676 40.0002 19.9816C40.0002 14.4946 39.9879 9.01127 39.9608 8.66671C39.8347 7.06086 39.5593 5.98105 38.9988 4.83973C38.5389 3.90544 38.0282 3.20772 37.2868 2.49431C35.964 1.23054 34.3458 0.461454 32.4173 0.183351C31.483 0.0482988 31.2968 0.00830617 26.5162 0H20.0066Z"
+                                          fill="url(#paint1_radial_920_2754)"></path>
+                                      </g>
+                                      <path
+                                        d="M20.0009 8C16.7418 8 16.3328 8.01425 15.0528 8.0725C13.7753 8.131 12.9033 8.33325 12.1403 8.63C11.351 8.9365 10.6815 9.3465 10.0145 10.0138C9.34701 10.6808 8.93701 11.3502 8.62951 12.1392C8.332 12.9025 8.1295 13.7748 8.072 15.0518C8.015 16.3317 8 16.741 8 20C8 23.259 8.0145 23.6668 8.0725 24.9468C8.13125 26.2243 8.3335 27.0962 8.63001 27.8592C8.93676 28.6485 9.34676 29.318 10.014 29.985C10.6808 30.6525 11.3503 31.0635 12.139 31.37C12.9026 31.6667 13.7748 31.869 15.0521 31.9275C16.3321 31.9858 16.7408 32 19.9996 32C23.2589 32 23.6667 31.9858 24.9467 31.9275C26.2242 31.869 27.0972 31.6667 27.8607 31.37C28.6497 31.0635 29.3182 30.6525 29.985 29.985C30.6525 29.318 31.0625 28.6485 31.37 27.8595C31.665 27.0963 31.8675 26.224 31.9275 24.947C31.985 23.667 32 23.259 32 20C32 16.741 31.985 16.332 31.9275 15.052C31.8675 13.7745 31.665 12.9025 31.37 12.1395C31.0625 11.3502 30.6525 10.6808 29.985 10.0138C29.3175 9.34625 28.65 8.93625 27.86 8.63C27.0949 8.33325 26.2224 8.131 24.9449 8.0725C23.6649 8.01425 23.2574 8 19.9974 8H20.0009ZM18.9244 10.1625C19.2439 10.162 19.6004 10.1625 20.0009 10.1625C23.2049 10.1625 23.5847 10.174 24.8499 10.2315C26.0199 10.285 26.6549 10.4805 27.0779 10.6448C27.638 10.8623 28.0372 11.1223 28.457 11.5423C28.877 11.9623 29.137 12.3622 29.355 12.9222C29.5192 13.3447 29.715 13.9797 29.7682 15.1497C29.8257 16.4148 29.8382 16.7947 29.8382 19.9972C29.8382 23.1997 29.8257 23.5797 29.7682 24.8447C29.7147 26.0147 29.5192 26.6497 29.355 27.0723C29.1375 27.6322 28.877 28.031 28.457 28.4508C28.037 28.8708 27.6382 29.1307 27.0779 29.3482C26.6554 29.5133 26.0199 29.7083 24.8499 29.7617C23.5849 29.8193 23.2049 29.8318 20.0009 29.8318C16.7966 29.8318 16.4168 29.8193 15.1518 29.7617C13.9818 29.7077 13.3468 29.5122 12.9236 29.348C12.3635 29.1305 11.9635 28.8705 11.5435 28.4505C11.1235 28.0305 10.8635 27.6315 10.6455 27.0713C10.4813 26.6488 10.2855 26.0138 10.2323 24.8438C10.1748 23.5787 10.1633 23.1987 10.1633 19.9942C10.1633 16.7897 10.1748 16.4118 10.2323 15.1468C10.2858 13.9768 10.4813 13.3417 10.6455 12.9187C10.863 12.3587 11.1235 11.9588 11.5435 11.5388C11.9635 11.1188 12.3635 10.8587 12.9236 10.6407C13.3466 10.4757 13.9818 10.2808 15.1518 10.227C16.2588 10.177 16.6878 10.162 18.9244 10.1595V10.1625ZM26.4064 12.155C26.1216 12.155 25.8432 12.2395 25.6064 12.3977C25.3695 12.556 25.185 12.7809 25.076 13.0441C24.967 13.3072 24.9385 13.5968 24.9941 13.8761C25.0497 14.1555 25.1869 14.412 25.3884 14.6134C25.5898 14.8148 25.8464 14.9519 26.1258 15.0074C26.4052 15.0629 26.6947 15.0343 26.9579 14.9252C27.221 14.8162 27.4458 14.6315 27.604 14.3947C27.7622 14.1578 27.8466 13.8793 27.8465 13.5945C27.8465 12.7995 27.2014 12.1545 26.4064 12.1545V12.155ZM20.0009 13.8375C16.5976 13.8375 13.8383 16.5968 13.8383 20C13.8383 23.4032 16.5976 26.1612 20.0009 26.1612C23.4042 26.1612 26.1627 23.4032 26.1627 20C26.1627 16.5968 23.4039 13.8375 20.0006 13.8375H20.0009ZM20.0009 16C22.2099 16 24.0009 17.7908 24.0009 20C24.0009 22.209 22.2099 24 20.0009 24C17.7916 24 16.0008 22.209 16.0008 20C16.0008 17.7908 17.7916 16 20.0009 16Z"
+                                        fill="white"></path>
+                                      <defs>
+                                        <radialGradient id="paint0_radial_920_2754" cx="0" cy="0" r="1"
+                                          gradientUnits="userSpaceOnUse"
+                                          gradientTransform="translate(10.6251 43.0693) rotate(-90) scale(39.6323 36.8712)">
+                                          <stop stop-color="#FFDD55"></stop>
+                                          <stop offset="0.1" stop-color="#FFDD55"></stop>
+                                          <stop offset="0.5" stop-color="#FF543E"></stop>
+                                          <stop offset="1" stop-color="#C837AB"></stop>
+                                        </radialGradient>
+                                        <radialGradient id="paint1_radial_920_2754" cx="0" cy="0" r="1"
+                                          gradientUnits="userSpaceOnUse"
+                                          gradientTransform="translate(-6.70024 2.88076) rotate(78.6776) scale(17.716 73.0445)">
+                                          <stop stop-color="#3771C8"></stop>
+                                          <stop offset="0.128" stop-color="#3771C8"></stop>
+                                          <stop offset="1" stop-color="#6600FF" stop-opacity="0"></stop>
+                                        </radialGradient>
+                                      </defs>
+                                    </svg>
+                                    <div class="pointer-events-none absolute inset-0 rounded-[inherit] phantom-border">
+                                    </div>
+                                  </div>
+                                  <div class="flex-1"></div>
+                                  <div data-prevent-widget="true" data-rich-button="true" role="button"
+                                    class="styles_follow-button__6z6vM rounded-lg bg-[#4093EF] text-center font-bold text-white hover:bg-[#2875CA] active:bg-[#3383DC] active:text-white/80">
+                                    Follow<!-- --> <span class="ml-1 font-medium text-white/80">2.1K</span></div>
+                                </div>
+                                <div class="styles_link-meta__container__Sj4Sr">
+                                  <div class="styles_title__Jtuxw">
+                                    <div class="">
+                                      <p>shabeer_bin_khalid</p>
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+                              <div class="flex-1"></div>
+                              <div class="styles_post-grid__TI72u">
+                                <div><img
+                                    srcset="assets/aHR0cHM6Ly9pbnN0YWdyYW0uZmFqbDMtMS5mbmEuZmJjZG4ubmV0L3Y_009.jpeg 2x"
+                                    loading="lazy"
+                                    src="assets/aHR0cHM6Ly9pbnN0YWdyYW0uZmFqbDMtMS5mbmEuZmJjZG4ubmV0L3Y_004.jpeg"
+                                    alt="">
+                                  <div class="pointer-events-none absolute inset-0 rounded-[inherit] phantom-border">
+                                  </div>
+                                </div>
+                                <div><img
+                                    srcset="assets/aHR0cHM6Ly9pbnN0YWdyYW0uZmFqbDMtMS5mbmEuZmJjZG4ubmV0L3Y_011.jpeg 2x"
+                                    loading="lazy"
+                                    src="assets/aHR0cHM6Ly9pbnN0YWdyYW0uZmFqbDMtMS5mbmEuZmJjZG4ubmV0L3Y_010.jpeg"
+                                    alt="">
+                                  <div class="pointer-events-none absolute inset-0 rounded-[inherit] phantom-border">
+                                  </div>
+                                </div>
+                                <div><img
+                                    srcset="assets/aHR0cHM6Ly9pbnN0YWdyYW0uZmFqbDMtMS5mbmEuZmJjZG4ubmV0L3Y_007.jpeg 2x"
+                                    loading="lazy"
+                                    src="assets/aHR0cHM6Ly9pbnN0YWdyYW0uZmFqbDMtMS5mbmEuZmJjZG4ubmV0L3Y_005.jpeg"
+                                    alt="">
+                                  <div class="pointer-events-none absolute inset-0 rounded-[inherit] phantom-border">
+                                  </div>
+                                </div>
+                                <div><img
+                                    srcset="assets/aHR0cHM6Ly9pbnN0YWdyYW0uZmFqbDMtMS5mbmEuZmJjZG4ubmV0L3Y_012.jpeg 2x"
+                                    loading="lazy"
+                                    src="assets/aHR0cHM6Ly9pbnN0YWdyYW0uZmFqbDMtMS5mbmEuZmJjZG4ubmV0L3Y_008.jpeg"
+                                    alt="">
+                                  <div class="pointer-events-none absolute inset-0 rounded-[inherit] phantom-border">
+                                  </div>
+                                </div>
+                                <div><img
+                                    srcset="assets/aHR0cHM6Ly9pbnN0YWdyYW0uZmFqbDMtMS5mbmEuZmJjZG4ubmV0L3YvdDU.jpeg 2x"
+                                    loading="lazy"
+                                    src="assets/aHR0cHM6Ly9pbnN0YWdyYW0uZmFqbDMtMS5mbmEuZmJjZG4ubmV0L3Y_006.jpeg"
+                                    alt="">
+                                  <div class="pointer-events-none absolute inset-0 rounded-[inherit] phantom-border">
+                                  </div>
+                                </div>
+                                <div><img
+                                    srcset="assets/aHR0cHM6Ly9pbnN0YWdyYW0uZmFqbDMtMS5mbmEuZmJjZG4ubmV0L3Y_002.jpeg 2x"
+                                    loading="lazy"
+                                    src="assets/aHR0cHM6Ly9pbnN0YWdyYW0uZmFqbDMtMS5mbmEuZmJjZG4ubmV0L3Y_003.jpeg"
+                                    alt="">
+                                  <div class="pointer-events-none absolute inset-0 rounded-[inherit] phantom-border">
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
                         </div>
-                      </div>
-                    </form>
+                        <div class="styles_widget__border__mnIDF"></div>
+                        <div class="styles_widget__border-highlight__wP_ik"></div>
+                      </a></div>
                   </div>
-                </div>
-                <div class="col-md-6">
-                  <div class="title-box-2 pt-4 pt-md-0">
-                    <h5 class="title-left">
-                      Say Hai..,
-                    </h5>
+                  <div class="bento-grid__item" data-id="B8hHMjjE9vE0DVfZ"
+                    style="will-change: transform; position: absolute; left: 0px; top: 0px; width: 390px; --widget-unit-w: 1; --widget-unit-h: 1; --widget-width-val: 390; --widget-width: 390px; height: 175px; --widget-height-val: 175; --widget-height: 175px; display: flex; flex-direction: column; transform: translate(430px, 430px);">
+                    <div data-item-content="true" class="bento-item__content"
+                      style="will-change: transform; opacity: 1; transform: scale(1) translateY(0px);"><a
+                        class="styles_widget___JC_t styles_widget--rounding-md__rZYhh styles_widget--bordered__eKEvv styles_widget--elevated__5whS8 styles_widget--hover-elevated__ru_L1 styles_widget--clickable__zPkxQ styles_widget--highlight-partial__40XJd"
+                        style="--widget-color:#007EBB;--widget-color-bg:#F0F6F9;--widget-color-hover:#E9F4FA;--widget-color-active:#DFEFF8"
+                        href="https://linkedin.com/in/shabeeralikt" target="_blank" rel="noopener noreferrer"
+                        draggable="false" tabindex="4">
+                        <div class="styles_widget__clip__417b_ no-scrollbar" data-widget-clip="true">
+                          <div
+                            class="styles_widget__content__GAekn styles_widget__content--snap__v7zti styles_link-widget-base__zEwMR">
+                            <div class="styles_link-widget__WOY8_ styles_link-widget--2x4__ls6Ee">
+                              <div class="styles_description__aVbsD">
+                                <div class="relative styles_icon__5o5__"><svg width="16" height="16"
+                                    class="h-full w-full" viewBox="0 0 40 40" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <rect width="40" height="40" rx="10" fill="#006699"></rect>
+                                    <path fill-rule="evenodd" clip-rule="evenodd"
+                                      d="M14.7344 29V15.5053H10.249V29H14.7344ZM12.4917 13.6629C14.0558 13.6629 15.0294 12.6266 15.0294 11.3316C15.0002 10.0075 14.0558 9 12.5214 9C10.9871 9 9.98389 10.0075 9.98389 11.3316C9.98389 12.6266 10.9572 13.6629 12.4625 13.6629H12.4916H12.4917Z"
+                                      fill="white"></path>
+                                    <path fill-rule="evenodd" clip-rule="evenodd"
+                                      d="M17.2163 29H21.7016V21.464C21.7016 21.0607 21.7308 20.6578 21.8492 20.3695C22.1735 19.5636 22.9115 18.7291 24.1506 18.7291C25.7736 18.7291 26.4229 19.9666 26.4229 21.7807V29H30.9078V21.2624C30.9078 17.1174 28.695 15.1887 25.744 15.1887C23.3243 15.1887 22.262 16.5412 21.6718 17.4624H21.7017V15.5053H17.2164C17.2753 16.7716 17.2164 29 17.2164 29H17.2163Z"
+                                      fill="white"></path>
+                                  </svg>
+                                  <div class="pointer-events-none absolute inset-0 rounded-[inherit] phantom-border">
+                                  </div>
+                                </div>
+                                <div class="styles_link-meta__container__w2b_G">
+                                  <div class="styles_title__kGBWE">
+                                    <div class="">
+                                      <p>shabeeralikt</p>
+                                    </div>
+                                  </div>
+                                  <div class="styles_host__zTVRc">linkedin.com</div>
+                                </div>
+                              </div>
+                              <div class="styles_frame__ymcZM styles_og__Rq6el">
+                                <div class="styles_menu___Mz8b" style="left:-10px;top:-10px;opacity:0"></div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="styles_widget__border__mnIDF"></div>
+                        <div class="styles_widget__border-highlight__wP_ik"></div>
+                      </a></div>
                   </div>
-                  <div class="more-info">
-                    <p class="lead">
-                      If you want a responsive website or a redesign of your current site, WordPress
-                      website development or just a meeting for a job opportunity, shoot me an email
-                      below and I'll get back to you ASAP:
-                    </p>
-                    <ul class="list-ico">
-                      <li><a href="https://goo.gl/maps/GyZvqd2wYXXQsejL6"><span class="ion-ios-location"></span> 131/15 KOOMANNA TIRURAGHADI, 676306 </a></li>
-                      <li><a href="tel:+919645198568"><span class="ion-ios-telephone"></span>  (+91) 9645 198 568</a></li>
-                      <li><a href="mailto:shabeersha717@gmail.com"><span class="ion-email"></span> shabeersha717@gmail.com</a></li>
-                    </ul>
+                  <div class="bento-grid__item" data-id="i20nt0xfvV2TMHbf"
+                    style="will-change: transform; position: absolute; left: 0px; top: 0px; width: 175px; --widget-unit-w: 1; --widget-unit-h: 1; --widget-width-val: 175; --widget-width: 175px; height: 390px; --widget-height-val: 390; --widget-height: 390px; display: flex; flex-direction: column; transform: translate(645px);">
+                    <div data-item-content="true" class="bento-item__content"
+                      style="will-change: transform; opacity: 1; transform: scale(1) translateY(0px);"><a
+                        class="styles_widget___JC_t styles_widget--rounding-md__rZYhh styles_widget--bordered__eKEvv styles_widget--elevated__5whS8 styles_widget--hover-elevated__ru_L1 styles_widget--clickable__zPkxQ styles_widget--highlight-partial__40XJd"
+                        style="--widget-color:#000" href="https://github.com/shabeersha" target="_blank"
+                        rel="noopener noreferrer" draggable="false" tabindex="2">
+                        <div class="styles_widget__clip__417b_ no-scrollbar" data-widget-clip="true">
+                          <div
+                            class="styles_widget__content__GAekn styles_widget__content--snap__v7zti styles_link-widget-base__zEwMR">
+                            <div class="styles_link-widget___XVQG styles_link-widget--4x2__4Ke_m">
+                              <div class="styles_description__BcDjh">
+                                <div class="flex items-start">
+                                  <div class="relative styles_icon__5o5__"><svg width="16" height="16"
+                                      class="h-full w-full" viewBox="0 0 40 40" fill="none"
+                                      xmlns="http://www.w3.org/2000/svg">
+                                      <rect width="40" height="40" rx="10" fill="black"></rect>
+                                      <g clip-path="url(#clip0_920_2749)">
+                                        <path fill-rule="evenodd" clip-rule="evenodd"
+                                          d="M20 8C13.37 8 8 13.37 8 20C8 25.31 11.435 29.795 16.205 31.385C16.805 31.49 17.03 31.13 17.03 30.815C17.03 30.53 17.015 29.585 17.015 28.58C14 29.135 13.22 27.845 12.98 27.17C12.845 26.825 12.26 25.76 11.75 25.475C11.33 25.25 10.73 24.695 11.735 24.68C12.68 24.665 13.355 25.55 13.58 25.91C14.66 27.725 16.385 27.215 17.075 26.9C17.18 26.12 17.495 25.595 17.84 25.295C15.17 24.995 12.38 23.96 12.38 19.37C12.38 18.065 12.845 16.985 13.61 16.145C13.49 15.845 13.07 14.615 13.73 12.965C13.73 12.965 14.735 12.65 17.03 14.195C17.99 13.925 19.01 13.79 20.03 13.79C21.05 13.79 22.07 13.925 23.03 14.195C25.325 12.635 26.33 12.965 26.33 12.965C26.99 14.615 26.57 15.845 26.45 16.145C27.215 16.985 27.68 18.05 27.68 19.37C27.68 23.975 24.875 24.995 22.205 25.295C22.64 25.67 23.015 26.39 23.015 27.515C23.015 29.12 23 30.41 23 30.815C23 31.13 23.225 31.505 23.825 31.385C28.565 29.795 32 25.295 32 20C32 13.37 26.63 8 20 8Z"
+                                          fill="white"></path>
+                                      </g>
+                                      <defs>
+                                        <clipPath id="clip0_920_2749">
+                                          <rect width="24" height="24" fill="white" transform="translate(8 8)"></rect>
+                                        </clipPath>
+                                      </defs>
+                                    </svg>
+                                    <div class="pointer-events-none absolute inset-0 rounded-[inherit] phantom-border">
+                                    </div>
+                                  </div>
+                                </div>
+                                <div class="styles_link-meta__container__6CCP7">
+                                  <div class="styles_title__MU2Pd">Shabeerali KT</div>
+                                </div>
+                              </div>
+                              <div class="styles_graph__sai4B">
+                                <div class="styles_illustration__fo34z"><svg width="100%" height="100%"
+                                    viewBox="0 0 132 132" fill="none" preserveAspectRatio="xMaxYMin meet"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <rect x="0" y="0" width="12" height="12" rx="2.5" fill="#ebedf0"></rect>
+                                    <rect x="0.5" y="0.5" width="11" height="11" rx="2" stroke-width="1"
+                                      stroke="rgba(0,0,0,0.04)"></rect>
+                                    <rect x="0" y="20" width="12" height="12" rx="2.5" fill="#ebedf0"></rect>
+                                    <rect x="0.5" y="20.5" width="11" height="11" rx="2" stroke-width="1"
+                                      stroke="rgba(0,0,0,0.04)"></rect>
+                                    <rect x="0" y="40" width="12" height="12" rx="2.5" fill="#ebedf0"></rect>
+                                    <rect x="0.5" y="40.5" width="11" height="11" rx="2" stroke-width="1"
+                                      stroke="rgba(0,0,0,0.04)"></rect>
+                                    <rect x="0" y="60" width="12" height="12" rx="2.5" fill="#ebedf0"></rect>
+                                    <rect x="0.5" y="60.5" width="11" height="11" rx="2" stroke-width="1"
+                                      stroke="rgba(0,0,0,0.04)"></rect>
+                                    <rect x="0" y="80" width="12" height="12" rx="2.5" fill="#ebedf0"></rect>
+                                    <rect x="0.5" y="80.5" width="11" height="11" rx="2" stroke-width="1"
+                                      stroke="rgba(0,0,0,0.04)"></rect>
+                                    <rect x="0" y="100" width="12" height="12" rx="2.5" fill="#ebedf0"></rect>
+                                    <rect x="0.5" y="100.5" width="11" height="11" rx="2" stroke-width="1"
+                                      stroke="rgba(0,0,0,0.04)"></rect>
+                                    <rect x="0" y="120" width="12" height="12" rx="2.5" fill="#ebedf0"></rect>
+                                    <rect x="0.5" y="120.5" width="11" height="11" rx="2" stroke-width="1"
+                                      stroke="rgba(0,0,0,0.04)"></rect>
+                                    <rect x="20" y="0" width="12" height="12" rx="2.5" fill="#ebedf0"></rect>
+                                    <rect x="20.5" y="0.5" width="11" height="11" rx="2" stroke-width="1"
+                                      stroke="rgba(0,0,0,0.04)"></rect>
+                                    <rect x="20" y="20" width="12" height="12" rx="2.5" fill="#ebedf0"></rect>
+                                    <rect x="20.5" y="20.5" width="11" height="11" rx="2" stroke-width="1"
+                                      stroke="rgba(0,0,0,0.04)"></rect>
+                                    <rect x="20" y="40" width="12" height="12" rx="2.5" fill="#ebedf0"></rect>
+                                    <rect x="20.5" y="40.5" width="11" height="11" rx="2" stroke-width="1"
+                                      stroke="rgba(0,0,0,0.04)"></rect>
+                                    <rect x="20" y="60" width="12" height="12" rx="2.5" fill="#ebedf0"></rect>
+                                    <rect x="20.5" y="60.5" width="11" height="11" rx="2" stroke-width="1"
+                                      stroke="rgba(0,0,0,0.04)"></rect>
+                                    <rect x="20" y="80" width="12" height="12" rx="2.5" fill="#ebedf0"></rect>
+                                    <rect x="20.5" y="80.5" width="11" height="11" rx="2" stroke-width="1"
+                                      stroke="rgba(0,0,0,0.04)"></rect>
+                                    <rect x="20" y="100" width="12" height="12" rx="2.5" fill="#ebedf0"></rect>
+                                    <rect x="20.5" y="100.5" width="11" height="11" rx="2" stroke-width="1"
+                                      stroke="rgba(0,0,0,0.04)"></rect>
+                                    <rect x="20" y="120" width="12" height="12" rx="2.5" fill="#ebedf0"></rect>
+                                    <rect x="20.5" y="120.5" width="11" height="11" rx="2" stroke-width="1"
+                                      stroke="rgba(0,0,0,0.04)"></rect>
+                                    <rect x="40" y="0" width="12" height="12" rx="2.5" fill="#ebedf0"></rect>
+                                    <rect x="40.5" y="0.5" width="11" height="11" rx="2" stroke-width="1"
+                                      stroke="rgba(0,0,0,0.04)"></rect>
+                                    <rect x="40" y="20" width="12" height="12" rx="2.5" fill="#ebedf0"></rect>
+                                    <rect x="40.5" y="20.5" width="11" height="11" rx="2" stroke-width="1"
+                                      stroke="rgba(0,0,0,0.04)"></rect>
+                                    <rect x="40" y="40" width="12" height="12" rx="2.5" fill="#ebedf0"></rect>
+                                    <rect x="40.5" y="40.5" width="11" height="11" rx="2" stroke-width="1"
+                                      stroke="rgba(0,0,0,0.04)"></rect>
+                                    <rect x="40" y="60" width="12" height="12" rx="2.5" fill="#ebedf0"></rect>
+                                    <rect x="40.5" y="60.5" width="11" height="11" rx="2" stroke-width="1"
+                                      stroke="rgba(0,0,0,0.04)"></rect>
+                                    <rect x="40" y="80" width="12" height="12" rx="2.5" fill="#ebedf0"></rect>
+                                    <rect x="40.5" y="80.5" width="11" height="11" rx="2" stroke-width="1"
+                                      stroke="rgba(0,0,0,0.04)"></rect>
+                                    <rect x="40" y="100" width="12" height="12" rx="2.5" fill="#ebedf0"></rect>
+                                    <rect x="40.5" y="100.5" width="11" height="11" rx="2" stroke-width="1"
+                                      stroke="rgba(0,0,0,0.04)"></rect>
+                                    <rect x="40" y="120" width="12" height="12" rx="2.5" fill="#ebedf0"></rect>
+                                    <rect x="40.5" y="120.5" width="11" height="11" rx="2" stroke-width="1"
+                                      stroke="rgba(0,0,0,0.04)"></rect>
+                                    <rect x="60" y="0" width="12" height="12" rx="2.5" fill="#ebedf0"></rect>
+                                    <rect x="60.5" y="0.5" width="11" height="11" rx="2" stroke-width="1"
+                                      stroke="rgba(0,0,0,0.04)"></rect>
+                                    <rect x="60" y="20" width="12" height="12" rx="2.5" fill="#ebedf0"></rect>
+                                    <rect x="60.5" y="20.5" width="11" height="11" rx="2" stroke-width="1"
+                                      stroke="rgba(0,0,0,0.04)"></rect>
+                                    <rect x="60" y="40" width="12" height="12" rx="2.5" fill="#ebedf0"></rect>
+                                    <rect x="60.5" y="40.5" width="11" height="11" rx="2" stroke-width="1"
+                                      stroke="rgba(0,0,0,0.04)"></rect>
+                                    <rect x="60" y="60" width="12" height="12" rx="2.5" fill="#ebedf0"></rect>
+                                    <rect x="60.5" y="60.5" width="11" height="11" rx="2" stroke-width="1"
+                                      stroke="rgba(0,0,0,0.04)"></rect>
+                                    <rect x="60" y="80" width="12" height="12" rx="2.5" fill="#ebedf0"></rect>
+                                    <rect x="60.5" y="80.5" width="11" height="11" rx="2" stroke-width="1"
+                                      stroke="rgba(0,0,0,0.04)"></rect>
+                                    <rect x="60" y="100" width="12" height="12" rx="2.5" fill="#ebedf0"></rect>
+                                    <rect x="60.5" y="100.5" width="11" height="11" rx="2" stroke-width="1"
+                                      stroke="rgba(0,0,0,0.04)"></rect>
+                                    <rect x="60" y="120" width="12" height="12" rx="2.5" fill="#ebedf0"></rect>
+                                    <rect x="60.5" y="120.5" width="11" height="11" rx="2" stroke-width="1"
+                                      stroke="rgba(0,0,0,0.04)"></rect>
+                                    <rect x="80" y="0" width="12" height="12" rx="2.5" fill="#ebedf0"></rect>
+                                    <rect x="80.5" y="0.5" width="11" height="11" rx="2" stroke-width="1"
+                                      stroke="rgba(0,0,0,0.04)"></rect>
+                                    <rect x="80" y="20" width="12" height="12" rx="2.5" fill="#ebedf0"></rect>
+                                    <rect x="80.5" y="20.5" width="11" height="11" rx="2" stroke-width="1"
+                                      stroke="rgba(0,0,0,0.04)"></rect>
+                                    <rect x="80" y="40" width="12" height="12" rx="2.5" fill="#ebedf0"></rect>
+                                    <rect x="80.5" y="40.5" width="11" height="11" rx="2" stroke-width="1"
+                                      stroke="rgba(0,0,0,0.04)"></rect>
+                                    <rect x="80" y="60" width="12" height="12" rx="2.5" fill="#ebedf0"></rect>
+                                    <rect x="80.5" y="60.5" width="11" height="11" rx="2" stroke-width="1"
+                                      stroke="rgba(0,0,0,0.04)"></rect>
+                                    <rect x="80" y="80" width="12" height="12" rx="2.5" fill="#ebedf0"></rect>
+                                    <rect x="80.5" y="80.5" width="11" height="11" rx="2" stroke-width="1"
+                                      stroke="rgba(0,0,0,0.04)"></rect>
+                                    <rect x="80" y="100" width="12" height="12" rx="2.5" fill="#ebedf0"></rect>
+                                    <rect x="80.5" y="100.5" width="11" height="11" rx="2" stroke-width="1"
+                                      stroke="rgba(0,0,0,0.04)"></rect>
+                                    <rect x="80" y="120" width="12" height="12" rx="2.5" fill="#ebedf0"></rect>
+                                    <rect x="80.5" y="120.5" width="11" height="11" rx="2" stroke-width="1"
+                                      stroke="rgba(0,0,0,0.04)"></rect>
+                                    <rect x="100" y="0" width="12" height="12" rx="2.5" fill="#ebedf0"></rect>
+                                    <rect x="100.5" y="0.5" width="11" height="11" rx="2" stroke-width="1"
+                                      stroke="rgba(0,0,0,0.04)"></rect>
+                                    <rect x="100" y="20" width="12" height="12" rx="2.5" fill="#ebedf0"></rect>
+                                    <rect x="100.5" y="20.5" width="11" height="11" rx="2" stroke-width="1"
+                                      stroke="rgba(0,0,0,0.04)"></rect>
+                                    <rect x="100" y="40" width="12" height="12" rx="2.5" fill="#ebedf0"></rect>
+                                    <rect x="100.5" y="40.5" width="11" height="11" rx="2" stroke-width="1"
+                                      stroke="rgba(0,0,0,0.04)"></rect>
+                                    <rect x="100" y="60" width="12" height="12" rx="2.5" fill="#ebedf0"></rect>
+                                    <rect x="100.5" y="60.5" width="11" height="11" rx="2" stroke-width="1"
+                                      stroke="rgba(0,0,0,0.04)"></rect>
+                                    <rect x="100" y="80" width="12" height="12" rx="2.5" fill="#ebedf0"></rect>
+                                    <rect x="100.5" y="80.5" width="11" height="11" rx="2" stroke-width="1"
+                                      stroke="rgba(0,0,0,0.04)"></rect>
+                                    <rect x="100" y="100" width="12" height="12" rx="2.5" fill="#ebedf0"></rect>
+                                    <rect x="100.5" y="100.5" width="11" height="11" rx="2" stroke-width="1"
+                                      stroke="rgba(0,0,0,0.04)"></rect>
+                                    <rect x="100" y="120" width="12" height="12" rx="2.5" fill="#ebedf0"></rect>
+                                    <rect x="100.5" y="120.5" width="11" height="11" rx="2" stroke-width="1"
+                                      stroke="rgba(0,0,0,0.04)"></rect>
+                                    <rect x="120" y="0" width="12" height="12" rx="2.5" fill="#ebedf0"></rect>
+                                    <rect x="120.5" y="0.5" width="11" height="11" rx="2" stroke-width="1"
+                                      stroke="rgba(0,0,0,0.04)"></rect>
+                                    <rect x="120" y="20" width="12" height="12" rx="2.5" fill="#ebedf0"></rect>
+                                    <rect x="120.5" y="20.5" width="11" height="11" rx="2" stroke-width="1"
+                                      stroke="rgba(0,0,0,0.04)"></rect>
+                                    <rect x="120" y="40" width="12" height="12" rx="2.5" fill="#ebedf0"></rect>
+                                    <rect x="120.5" y="40.5" width="11" height="11" rx="2" stroke-width="1"
+                                      stroke="rgba(0,0,0,0.04)"></rect>
+                                    <rect x="120" y="60" width="12" height="12" rx="2.5" fill="#ebedf0"></rect>
+                                    <rect x="120.5" y="60.5" width="11" height="11" rx="2" stroke-width="1"
+                                      stroke="rgba(0,0,0,0.04)"></rect>
+                                    <rect x="120" y="80" width="12" height="12" rx="2.5" fill="#ebedf0"></rect>
+                                    <rect x="120.5" y="80.5" width="11" height="11" rx="2" stroke-width="1"
+                                      stroke="rgba(0,0,0,0.04)"></rect>
+                                    <rect x="120" y="100" width="12" height="12" rx="2.5" fill="#ebedf0"></rect>
+                                    <rect x="120.5" y="100.5" width="11" height="11" rx="2" stroke-width="1"
+                                      stroke="rgba(0,0,0,0.04)"></rect>
+                                  </svg></div>
+                                <div class="flex-1"></div>
+                                <div data-prevent-widget="true" data-rich-button="true" role="button"
+                                  class="styles_follow-button__rD65O">Follow</div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="styles_widget__border__mnIDF"></div>
+                        <div class="styles_widget__border-highlight__wP_ik"></div>
+                      </a></div>
                   </div>
-                  <div class="socials">
-                    <ul>
-                      <li><a href="https://www.facebook.com/shabeer.bin.khalid"><span class="ico-circle"><i class="ion-social-facebook"></i></span></a></li>
-                      <li><a href="https://www.instagram.com/shabeer_bin_khalid"><span class="ico-circle"><i class="ion-social-instagram"></i></span></a></li>
-                      <li><a href="https://twitter.com/shabeerSBA"><span class="ico-circle"><i class="ion-social-twitter"></i></span></a></li>
-                      <li><a href="https://github.com/shabeersha"><span class="ico-circle"><i class="fab fa-github"></i></span></a></li>
-                      <li><a href="https://dev.to/shabeersha"><span class="ico-circle"><i class="fab fa-dev" title="shabeersha's DEV Profile"></i></span></a></li>
-                    </ul>
+                  <div class="bento-grid__item" data-id="8SSbltaSjrGLnLrY"
+                    style="will-change: transform; position: absolute; left: 0px; top: 0px; width: 390px; --widget-unit-w: 1; --widget-unit-h: 1; --widget-width-val: 390; --widget-width: 390px; height: 390px; --widget-height-val: 390; --widget-height: 390px; display: flex; flex-direction: column; transform: translate(0px, 430px);">
+                    <div data-item-content="true" class="bento-item__content"
+                      style="will-change: transform; opacity: 1; transform: scale(1) translateY(0px);"><a
+                        class="styles_widget___JC_t styles_widget--rounding-lg__bZFfd styles_widget--bordered__eKEvv styles_widget--elevated__5whS8 styles_widget--hover-elevated__ru_L1 styles_widget--clickable__zPkxQ styles_widget--highlight-partial__40XJd"
+                        style="--widget-color:#FF0000;--widget-color-bg:#FFF0F0;--widget-color-hover:#FFE8E8;--widget-color-active:#FFDBDB"
+                        href="https://youtube.com/@techcodez" target="_blank" rel="noopener noreferrer"
+                        draggable="false" tabindex="3">
+                        <div class="styles_widget__clip__417b_ no-scrollbar" data-widget-clip="true">
+                          <div
+                            class="styles_widget__content__GAekn styles_widget__content--snap__v7zti styles_link-widget-base__zEwMR">
+                            <div class="styles_link-widget__SIb2_ styles_link-widget--4x4__Ef3WM">
+                              <div class="styles_description__TkqVF">
+                                <div class="flex items-start w-full">
+                                  <div class="relative styles_icon__5o5__"><svg width="16" height="16"
+                                      class="h-full w-full" viewBox="0 0 40 40" fill="none"
+                                      xmlns="http://www.w3.org/2000/svg">
+                                      <rect width="40" height="40" rx="10" fill="#FF0000"></rect>
+                                      <path fill-rule="evenodd" clip-rule="evenodd"
+                                        d="M29.3766 12.5016C30.4093 12.7775 31.2225 13.5907 31.4986 14.6233L31.4985 14.6234C32 16.495 32 20.4001 32 20.4001C32 20.4001 32 24.305 31.4985 26.1768C31.2224 27.2094 30.4092 28.0225 29.3765 28.2986C27.505 28.8 19.9999 28.8 19.9999 28.8C19.9999 28.8 12.4949 28.8 10.6233 28.2986C9.59065 28.0224 8.77727 27.2094 8.50144 26.1767C8 24.3049 8 20.4 8 20.4C8 20.4 8 16.4949 8.50144 14.6233C8.77727 13.5907 9.59065 12.7775 10.6234 12.5016C12.495 12 20 12 20 12C20 12 27.5051 12 29.3766 12.5016ZM24.4429 20.6931L17.6001 24.5857V16.8L24.4429 20.6931Z"
+                                        fill="white"></path>
+                                    </svg>
+                                    <div class="pointer-events-none absolute inset-0 rounded-[inherit] phantom-border">
+                                    </div>
+                                  </div>
+                                  <div class="flex-1"></div>
+                                  <div data-prevent-widget="true" data-rich-button="true" role="button"
+                                    class="styles_follow-button__885Ii rounded-full bg-[#FF0000] text-center font-bold text-white hover:bg-[#EB0404] active:bg-[#DE0000] active:text-white/90">
+                                    Subscribe <span class="styles_subs__lESk_">1.5K</span></div>
+                                </div>
+                                <div class="styles_link-meta__container__cH_Y_">
+                                  <div class="styles_title__uRF8b">Techcodez</div>
+                                </div>
+                              </div>
+                              <div class="flex-1"></div>
+                              <div class="styles_youtube-grid__fIYE8">
+                                <div><img
+                                    srcset="assets/aHR0cHM6Ly9pLnl0aW1nLmNvbS92aS92TXU0TFRWNGxZMC9tcWRlZmF1bHQ.jpeg 2x"
+                                    loading="lazy"
+                                    src="assets/aHR0cHM6Ly9pLnl0aW1nLmNvbS92aS92TXU0TFRWNGxZMC9tcWRlZmF_002.jpeg"
+                                    alt="">
+                                  <div class="pointer-events-none absolute inset-0 rounded-[inherit] phantom-border">
+                                  </div>
+                                </div>
+                                <div><img
+                                    srcset="assets/aHR0cHM6Ly9pLnl0aW1nLmNvbS92aS9BM2pRVklxRlBkWS9tcWRlZmF_002.jpeg 2x"
+                                    loading="lazy"
+                                    src="assets/aHR0cHM6Ly9pLnl0aW1nLmNvbS92aS9BM2pRVklxRlBkWS9tcWRlZmF1bHQ.jpeg"
+                                    alt="">
+                                  <div class="pointer-events-none absolute inset-0 rounded-[inherit] phantom-border">
+                                  </div>
+                                </div>
+                                <div><img
+                                    srcset="assets/aHR0cHM6Ly9pLnl0aW1nLmNvbS92aS9YUmpSV1RLSndMby9tcWRlZmF_002.jpeg 2x"
+                                    loading="lazy"
+                                    src="assets/aHR0cHM6Ly9pLnl0aW1nLmNvbS92aS9YUmpSV1RLSndMby9tcWRlZmF1bHQ.jpeg"
+                                    alt="">
+                                  <div class="pointer-events-none absolute inset-0 rounded-[inherit] phantom-border">
+                                  </div>
+                                </div>
+                                <div><img
+                                    srcset="assets/aHR0cHM6Ly9pLnl0aW1nLmNvbS92aS9pdGJCQ1NmMDFOcy9tcWRlZmF_002.jpeg 2x"
+                                    loading="lazy"
+                                    src="assets/aHR0cHM6Ly9pLnl0aW1nLmNvbS92aS9pdGJCQ1NmMDFOcy9tcWRlZmF1bHQ.jpeg"
+                                    alt="">
+                                  <div class="pointer-events-none absolute inset-0 rounded-[inherit] phantom-border">
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="styles_widget__border__mnIDF"></div>
+                        <div class="styles_widget__border-highlight__wP_ik"></div>
+                      </a></div>
+                  </div>
+                  <div class="bento-grid__item" data-id="Vy7WmymiP5GAtafo"
+                    style="will-change: transform; position: absolute; left: 0px; top: 0px; width: 390px; --widget-unit-w: 1; --widget-unit-h: 1; --widget-width-val: 390; --widget-width: 390px; height: 175px; --widget-height-val: 175; --widget-height: 175px; display: flex; flex-direction: column; transform: translate(0px, 860px);">
+                    <div data-item-content="true" class="bento-item__content"
+                      style="will-change: transform; opacity: 1; transform: scale(1) translateY(0px);"><a
+                        class="styles_widget___JC_t styles_widget--rounding-md__rZYhh styles_widget--bordered__eKEvv styles_widget--elevated__5whS8 styles_widget--hover-elevated__ru_L1 styles_widget--clickable__zPkxQ styles_widget--highlight-partial__40XJd"
+                        href="http://shabeersha.github.io/" target="_blank" rel="noopener noreferrer" draggable="false"
+                        tabindex="5">
+                        <div class="styles_widget__clip__417b_ no-scrollbar" data-widget-clip="true">
+                          <div
+                            class="styles_widget__content__GAekn styles_widget__content--snap__v7zti styles_link-widget-base__zEwMR">
+                            <div class="styles_link-widget__WOY8_ styles_link-widget--2x4__ls6Ee">
+                              <div class="styles_description__aVbsD">
+                                <div class="relative styles_icon__5o5__"><svg width="16" height="16"
+                                    class="h-full w-full p-2.5" viewBox="0 0 18 18" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path fill-rule="evenodd" clip-rule="evenodd"
+                                      d="M3.95034 13.8492C5.12191 15.0208 7.02141 15.0208 8.19298 13.8492L9.6072 12.435C9.99772 12.0445 10.6309 12.0445 11.0214 12.435C11.4119 12.8256 11.4119 13.4587 11.0214 13.8492L9.6072 15.2635C7.65457 17.2161 4.48875 17.2161 2.53613 15.2635C0.583506 13.3108 0.583507 10.145 2.53613 8.19239L3.95034 6.77817C4.34087 6.38765 4.97403 6.38765 5.36455 6.77817C5.75508 7.1687 5.75508 7.80186 5.36455 8.19239L3.95034 9.6066C2.77877 10.7782 2.77877 12.6777 3.95034 13.8492ZM12.4356 9.6066L13.8498 8.19239C15.0214 7.02082 15.0214 5.12132 13.8498 3.94975C12.6783 2.77817 10.7788 2.77817 9.6072 3.94975L8.19298 5.36396C7.80246 5.75449 7.16929 5.75449 6.77877 5.36396C6.38824 4.97344 6.38824 4.34027 6.77877 3.94975L8.19298 2.53553C10.1456 0.582913 13.3114 0.582913 15.264 2.53553C17.2167 4.48816 17.2167 7.65398 15.264 9.6066L13.8498 11.0208C13.4593 11.4113 12.8261 11.4113 12.4356 11.0208C12.0451 10.6303 12.0451 9.99713 12.4356 9.6066ZM11.7285 7.48528C12.119 7.09476 12.119 6.46159 11.7285 6.07107C11.338 5.68054 10.7048 5.68054 10.3143 6.07107L6.07166 10.3137C5.68114 10.7042 5.68114 11.3374 6.07166 11.7279C6.46219 12.1184 7.09535 12.1184 7.48588 11.7279L11.7285 7.48528Z"
+                                      fill="currentColor"></path>
+                                  </svg>
+                                  <div class="pointer-events-none absolute inset-0 rounded-[inherit] phantom-border">
+                                  </div>
+                                  <div class="pointer-events-none absolute inset-0 rounded-[inherit] phantom-border">
+                                  </div>
+                                </div>
+                                <div class="styles_link-meta__container__w2b_G">
+                                  <div class="styles_title__kGBWE">
+                                    <div class="">
+                                      <p>Shabeer Bin Khalid</p>
+                                    </div>
+                                  </div>
+                                  <div class="styles_host__zTVRc">shabeersha.github.io</div>
+                                </div>
+                              </div>
+                              <div class="styles_frame__ymcZM styles_og__Rq6el"><img loading="lazy"
+                                  src="assets/ISaE8P06FoWXrqKF-website.png" alt=""
+                                  class="h-full w-full rounded-[inherit] object-cover">
+                                <div class="pointer-events-none absolute inset-0 rounded-[inherit] phantom-border">
+                                </div>
+                                <div class="styles_menu___Mz8b" style="left:-10px;top:-10px;opacity:0"></div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="styles_widget__border__mnIDF"></div>
+                        <div class="styles_widget__border-highlight__wP_ik"></div>
+                      </a></div>
+                  </div>
+                  <div class="bento-grid__item" data-id="ZpyP7WTfMdKm2flz"
+                    style="will-change: transform; position: absolute; left: 0px; top: 0px; width: 390px; --widget-unit-w: 1; --widget-unit-h: 1; --widget-width-val: 390; --widget-width: 390px; height: 390px; --widget-height-val: 390; --widget-height: 390px; display: flex; flex-direction: column; transform: translate(430px, 645px);">
+                    <div data-item-content="true" class="bento-item__content"
+                      style="will-change: transform; opacity: 1; transform: scale(1) translateY(0px);"><a
+                        class="styles_widget___JC_t styles_widget--rounding-lg__bZFfd styles_widget--bordered__eKEvv styles_widget--elevated__5whS8 styles_widget--hover-elevated__ru_L1 styles_widget--clickable__zPkxQ styles_widget--highlight-partial__40XJd"
+                        href="https://www.techcodez.in/" target="_blank" rel="noopener noreferrer" draggable="false"
+                        tabindex="6">
+                        <div class="styles_widget__clip__417b_ no-scrollbar" data-widget-clip="true">
+                          <div
+                            class="styles_widget__content__GAekn styles_widget__content--snap__v7zti styles_link-widget-base__zEwMR">
+                            <div class="styles_link-widget__WOY8_ styles_link-widget--4x4__oldmC">
+                              <div class="styles_description__aVbsD">
+                                <div class="relative styles_icon__5o5__ styles_favicon__bJMP4"><img
+                                    src="assets/aHR0cHM6Ly93d3cudGVjaGNvZGV6LmluL2Zhdmljb24uaWNv.png"
+                                    alt="" class="h-full w-full rounded-[inherit]">
+                                  <div class="pointer-events-none absolute inset-0 rounded-[inherit] phantom-border">
+                                  </div>
+                                  <div class="pointer-events-none absolute inset-0 rounded-[inherit] phantom-border">
+                                  </div>
+                                </div>
+                                <div class="styles_link-meta__container__w2b_G">
+                                  <div class="styles_title__kGBWE">Techcodez</div>
+                                  <div class="styles_host__zTVRc">techcodez.in</div>
+                                </div>
+                              </div>
+                              <div class="styles_frame__ymcZM styles_og__Rq6el"><img loading="lazy"
+                                  src="assets/screenshot.jpeg" alt=""
+                                  class="h-full w-full rounded-[inherit] object-cover">
+                                <div class="pointer-events-none absolute inset-0 rounded-[inherit] phantom-border">
+                                </div>
+                                <div class="styles_menu___Mz8b" style="left:-10px;top:-10px;opacity:0"></div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="styles_widget__border__mnIDF"></div>
+                        <div class="styles_widget__border-highlight__wP_ik"></div>
+                      </a></div>
                   </div>
                 </div>
               </div>
@@ -739,48 +877,16 @@
           </div>
         </div>
       </div>
-    </div>
-    <footer>
       
-    </footer>
-  </section>
-  <!--/ Section Contact-footer End /-->
-
-  <a href="#" class="back-to-top"><i class="fa fa-chevron-up"></i></a>
-  <div id="preloader"></div>
-
-  <!-- JavaScript Libraries -->
-  <script src="lib/jquery/jquery.min.js"></script>
-  <script src="lib/jquery/jquery-migrate.min.js"></script>
-  <script src="lib/popper/popper.min.js"></script>
-  <script src="lib/bootstrap/js/bootstrap.min.js"></script>
-  <script src="lib/easing/easing.min.js"></script>
-  <script src="lib/counterup/jquery.waypoints.min.js"></script>
-  <script src="lib/counterup/jquery.counterup.js"></script>
-  <script src="lib/owlcarousel/owl.carousel.min.js"></script>
-  <script src="lib/lightbox/js/lightbox.min.js"></script>
-  <script src="lib/typed/typed.min.js"></script>
-  <!-- Contact Form JavaScript File -->
-  <script src="contactform/contactform.js"></script>
-
-  <!-- Template Main Javascript File -->
-  <script src="js/main.js"></script>
-  <script type="text/javascript">
-    (function(f,b){if(!b.__SV){var e,g,i,h;window.mixpanel=b;b._i=[];b.init=function(e,f,c){function g(a,d){var b=d.split(".");2==b.length&&(a=a[b[0]],d=b[1]);a[d]=function(){a.push([d].concat(Array.prototype.slice.call(arguments,0)))}}var a=b;"undefined"!==typeof c?a=b[c]=[]:c="mixpanel";a.people=a.people||[];a.toString=function(a){var d="mixpanel";"mixpanel"!==c&&(d+="."+c);a||(d+=" (stub)");return d};a.people.toString=function(){return a.toString(1)+".people (stub)"};i="disable time_event track track_pageview track_links track_forms track_with_groups add_group set_group remove_group register register_once alias unregister identify name_tag set_config reset opt_in_tracking opt_out_tracking has_opted_in_tracking has_opted_out_tracking clear_opt_in_out_tracking start_batch_senders people.set people.set_once people.unset people.increment people.append people.union people.track_charge people.clear_charges people.delete_user people.remove".split(" ");
-    for(h=0;h<i.length;h++)g(a,i[h]);var j="set set_once union unset remove delete".split(" ");a.get_group=function(){function b(c){d[c]=function(){call2_args=arguments;call2=[c].concat(Array.prototype.slice.call(call2_args,0));a.push([e,call2])}}for(var d={},e=["get_group"].concat(Array.prototype.slice.call(arguments,0)),c=0;c<j.length;c++)b(j[c]);return d};b._i.push([e,f,c])};b.__SV=1.2;e=f.createElement("script");e.type="text/javascript";e.async=!0;e.src="undefined"!==typeof MIXPANEL_CUSTOM_LIB_URL?
-    MIXPANEL_CUSTOM_LIB_URL:"file:"===f.location.protocol&&"//cdn.mxpnl.com/libs/mixpanel-2-latest.min.js".match(/^\/\//)?"https://cdn.mxpnl.com/libs/mixpanel-2-latest.min.js":"//cdn.mxpnl.com/libs/mixpanel-2-latest.min.js";g=f.getElementsByTagName("script")[0];g.parentNode.insertBefore(e,g)}})(document,window.mixpanel||[]);
-    
-    // Enabling the debug mode flag is useful during implementation,
-    // but it's recommended you remove it for production
-    mixpanel.init('2f8fe385556c5989b9e1189a2a981f1a', {debug: true}); 
-
-    if(new URLSearchParams(window.location.search).get('ref')){ 
-      mixpanel.track(new URLSearchParams(window.location.search).get('ref'));
-    }else{
-      mixpanel.track('Direct visit');
-    }
-    
-    </script>
-
+    </main>
+    <div style="position:fixed;z-index:9999;top:16px;left:16px;right:16px;bottom:16px;pointer-events:none;padding:32px">
+    </div>
+  </div>
+  <script type="text/javascript" src="assets/recorder.js"></script>
+  <script id="__NEXT_DATA__" type="application/json">
+{"props":{"pageProps":{"profile":{"id":"clieebp4i00hgqq01xrrrem7w","name":"Shabeerali KT","handle":"shabeerali","bento":{"items":[{"data":{"id":"MHXbAZTxIuLdzuVH","href":"https://twitter.com/techcodezz","type":"link","style":{"mobile":"2x2","desktop":"4x2"}},"position":{"mobile":{"x":0,"y":4},"desktop":{"x":0,"y":0}}},{"data":{"id":"my4VMA8JCbyqmJX3","href":"https://instagram.com/shabeer_bin_khalid","type":"link","style":{"mobile":"4x4","desktop":"4x4"},"overrides":{"title":{"type":"doc","content":[{"type":"paragraph","content":[{"text":"shabeer_bin_khalid","type":"text"}]}]}}},"position":{"mobile":{"x":0,"y":0},"desktop":{"x":2,"y":0}}},{"data":{"id":"B8hHMjjE9vE0DVfZ","href":"https://linkedin.com/in/shabeeralikt","type":"link","style":{"mobile":"2x2","desktop":"2x4"},"overrides":{"title":{"type":"doc","content":[{"type":"paragraph","content":[{"text":"shabeeralikt","type":"text"}]}]}}},"position":{"mobile":{"x":0,"y":6},"desktop":{"x":4,"y":4}}},{"data":{"id":"i20nt0xfvV2TMHbf","href":"https://github.com/shabeersha","type":"link","style":{"mobile":"2x2","desktop":"4x2"}},"position":{"mobile":{"x":2,"y":4},"desktop":{"x":6,"y":0}}},{"data":{"id":"8SSbltaSjrGLnLrY","href":"https://youtube.com/@techcodez","type":"link","style":{"mobile":"2x2","desktop":"4x4"}},"position":{"mobile":{"x":2,"y":6},"desktop":{"x":0,"y":4}}},{"data":{"id":"Vy7WmymiP5GAtafo","href":"http://shabeersha.github.io","type":"link","style":{"mobile":"4x4","desktop":"2x4"},"overrides":{"title":{"type":"doc","content":[{"type":"paragraph","content":[{"text":"Shabeer Bin Khalid","type":"text"}]}]},"ogImage":"https://storage.googleapis.com/creatorspace-public/users%2Fclieebp4i00hgqq01xrrrem7w%2FISaE8P06FoWXrqKF-website.png"}},"position":{"mobile":{"x":0,"y":8},"desktop":{"x":0,"y":8}}},{"data":{"id":"ZpyP7WTfMdKm2flz","href":"https://www.techcodez.in/","type":"link","style":{"desktop":"4x4"}},"position":{"mobile":{"x":0,"y":12},"desktop":{"x":4,"y":8}}}],"version":"v2"},"image":"https://storage.googleapis.com/creatorspace-public/users%2Fclieebp4i00hgqq01xrrrem7w%2FGt4m4WVp2PkfZeoX-Shabeerali%2520KT.jpg","bio":null,"ogImage":null},"fallback":{"/urlmetadata/https%3A%2F%2Ftwitter.com%2Ftechcodezz":{"url":"https://twitter.com/techcodezz","title":"Twitter","description":null,"siteName":"Twitter","siteVideoUrl":null,"imageUrl":null,"audioUrl":null,"videoUrl":null,"faviconUrl":"https://storage.googleapis.com/creatorspace-public/sites%2Ffavicons%2FaHR0cHM6Ly9hYnMudHdpbWcuY29tL2Zhdmljb25zL3R3aXR0ZXIuMi5pY28%3D.ico","touchIconUrl":"https://storage.googleapis.com/creatorspace-public/sites%2Ftouchicons%2FaHR0cHM6Ly9hYnMudHdpbWcuY29tL3Jlc3BvbnNpdmUtd2ViL2NsaWVudC13ZWItbGVnYWN5L2ljb24taW9zLmIxZmM3MjdhLnBuZw%3D%3D.png","screenshotUrl":"https://storage.googleapis.com/creatorspace-public/sites/aHR0cHM6Ly90d2l0dGVyLmNvbS90ZWNoY29kZXp6/screenshot.jpeg","status":"COMPLETED","createdAt":"2023-06-02T10:22:15.986Z","updatedAt":"2023-06-02T10:22:21.921Z"},"/urlmetadata/https%3A%2F%2Finstagram.com%2Fshabeer_bin_khalid":{"url":"https://instagram.com/shabeer_bin_khalid","title":"Shabeerali | Web Developer (@shabeer_bin_khalid) • Instagram photos and videos","description":"2,079 Followers, 1,382 Following, 30 Posts - See Instagram photos and videos from Shabeerali | Web Developer (@shabeer_bin_khalid)","siteName":null,"siteVideoUrl":null,"imageUrl":"https://storage.googleapis.com/creatorspace-public/sites%2Fogimages%2FaHR0cHM6Ly9zY29udGVudC5jZG5pbnN0YWdyYW0uY29tL3YvdDUxLjI4ODUtMTkvMTQ3MDk1NjE3XzI5Mjc2ODU2NzA4ODc2ODNfNzMwMTc5NTU2MTExMTE0NDA4Nl9uLmpwZz9zdHA9ZHN0LWpwZ19zMTAweDEwMCZfbmNfY2F0PTEwNyZjY2I9MS03Jl9uY19zaWQ9OGFlOWQ2Jl9uY19vaGM9dEtMVzJ5dGdKTVVBWDhUcXBWayZfbmNfaHQ9c2NvbnRlbnQuY2RuaW5zdGFncmFtLmNvbSZvaD0wMF9BZkJ4cUhJSzRNeFBtRzk1RzA3V0pQT0NEMUdkanE5dHZNQ2I4U3ZfYzJiTzlnJm9lPTY0QTExRkRC.jpeg","audioUrl":null,"videoUrl":null,"faviconUrl":"https://storage.googleapis.com/creatorspace-public/sites%2Ffavicons%2FaHR0cHM6Ly9zdGF0aWMuY2RuaW5zdGFncmFtLmNvbS9yc3JjLnBocC92My95Yi9yL2xzd1AxT0YxbzZQLnBuZw%3D%3D.png","touchIconUrl":"https://storage.googleapis.com/creatorspace-public/sites%2Ftouchicons%2FaHR0cHM6Ly9zdGF0aWMuY2RuaW5zdGFncmFtLmNvbS9yc3JjLnBocC92My95Ry9yL0RlLUR3cGQ1Q0hjLnBuZw%3D%3D.png","screenshotUrl":null,"status":"COMPLETED","createdAt":"2023-06-02T10:23:21.443Z","updatedAt":"2023-06-02T10:23:37.545Z"},"/urlmetadata/https%3A%2F%2Flinkedin.com%2Fin%2Fshabeeralikt":{"url":"https://linkedin.com/in/shabeeralikt","title":null,"description":null,"siteName":null,"siteVideoUrl":null,"imageUrl":null,"audioUrl":null,"videoUrl":null,"faviconUrl":null,"touchIconUrl":null,"screenshotUrl":null,"status":"FAILED","createdAt":"2023-06-02T10:23:43.074Z","updatedAt":"2023-06-02T14:04:23.827Z"},"/urlmetadata/https%3A%2F%2Fgithub.com%2Fshabeersha":{"url":"https://github.com/shabeersha","title":"shabeersha - Overview","description":"Web Developer\r\n. shabeersha has 68 repositories available. Follow their code on GitHub.","siteName":"GitHub","siteVideoUrl":null,"imageUrl":"https://storage.googleapis.com/creatorspace-public/sites%2Fogimages%2FaHR0cHM6Ly9hdmF0YXJzLmdpdGh1YnVzZXJjb250ZW50LmNvbS91LzE3ODAwODY1P3Y9ND9zPTQwMA%3D%3D.jpeg","audioUrl":null,"videoUrl":null,"faviconUrl":"https://storage.googleapis.com/creatorspace-public/sites%2Ffavicons%2FaHR0cHM6Ly9naXRodWIuZ2l0aHViYXNzZXRzLmNvbS9mYXZpY29ucy9mYXZpY29uLnN2Zw%3D%3D.svg","touchIconUrl":null,"screenshotUrl":null,"status":"COMPLETED","createdAt":"2023-06-02T10:23:49.665Z","updatedAt":"2023-06-02T10:23:51.066Z"},"/urlmetadata/https%3A%2F%2Fyoutube.com%2F%40techcodez":{"url":"https://youtube.com/@techcodez","title":"Techcodez","description":"Welcome to the Technology and Coding Life channel!We are a community of developers, designers, and tech enthusiasts who are passionate about sharing our know...","siteName":"YouTube","siteVideoUrl":null,"imageUrl":"https://storage.googleapis.com/creatorspace-public/sites%2Fogimages%2FaHR0cHM6Ly95dDMuZ29vZ2xldXNlcmNvbnRlbnQuY29tLzYyTGdFblRjajg0eXk2anRia2pfVG81QUwxMXVWengxdm4zUURqLXpSc3lsbXd1cU0xSEN1SS10UHhVd2tsVjFJb0d0SWRkQj1zOTAwLWMtay1jMHgwMGZmZmZmZi1uby1yag%3D%3D.jpeg","audioUrl":null,"videoUrl":null,"faviconUrl":"https://storage.googleapis.com/creatorspace-public/sites%2Ffavicons%2FaHR0cHM6Ly93d3cueW91dHViZS5jb20vcy9kZXNrdG9wLzA3YzEyNGE1L2ltZy9mYXZpY29uXzk2eDk2LnBuZw%3D%3D.png","touchIconUrl":null,"screenshotUrl":null,"status":"COMPLETED","createdAt":"2023-06-02T10:23:57.173Z","updatedAt":"2023-06-02T10:23:58.439Z"},"/urlmetadata/http%3A%2F%2Fshabeersha.github.io":{"url":"http://shabeersha.github.io","title":"Shabeer Bin Khalid","description":"I'm Shabeer Bin Khalid. I'm Web Developer and Tech Blogger. I share Web Dvelopment tips and tricks depend on todays trend.  ","siteName":null,"siteVideoUrl":null,"imageUrl":null,"audioUrl":null,"videoUrl":null,"faviconUrl":"https://image.flaticon.com/icons/svg/511/511139.svg","touchIconUrl":"https://image.flaticon.com/icons/svg/511/511139.svg","screenshotUrl":"https://storage.googleapis.com/creatorspace-public/sites/aHR0cDovL3NoYWJlZXJzaGEuZ2l0aHViLmlv/screenshot.jpeg","status":"COMPLETED","createdAt":"2023-06-02T10:26:58.214Z","updatedAt":"2023-06-02T10:27:00.644Z"},"/urlmetadata/https%3A%2F%2Fwww.techcodez.in%2F":{"url":"https://www.techcodez.in/","title":"Techcodez","description":"We provide information about #Technologies and #coding life. and some coding #tutorials,#tricks,#tips,#gadget #shopping #offers and #coupons","siteName":null,"siteVideoUrl":null,"imageUrl":null,"audioUrl":null,"videoUrl":null,"faviconUrl":"https://storage.googleapis.com/creatorspace-public/sites%2Ffavicons%2FaHR0cHM6Ly93d3cudGVjaGNvZGV6LmluL2Zhdmljb24uaWNv.ico","touchIconUrl":null,"screenshotUrl":"https://storage.googleapis.com/creatorspace-public/sites/aHR0cHM6Ly93d3cudGVjaGNvZGV6LmluLw==/screenshot.jpeg","status":"COMPLETED","createdAt":"2023-06-02T10:35:12.671Z","updatedAt":"2023-06-02T10:35:16.946Z"},"/urlrichdata/https%3A%2F%2Ftwitter.com%2Ftechcodezz":{"url":"https://twitter.com/techcodezz","data":{"avatar":"https://storage.googleapis.com/creatorspace-public/richdata%2Ftwitter%2Favatars%2FaHR0cHM6Ly9wYnMudHdpbWcuY29tL3Byb2ZpbGVfaW1hZ2VzLzE2NjQ1NzY3NDI2OTMxNzUyOTYvb2pxRFIyY2hfMjAweDIwMC5qcGc%3D.jpeg","handle":"techcodezz","bioLinks":[],"userName":"techcodez","following":17},"status":"COMPLETED","createdAt":"2023-06-02T10:22:15.425Z","updatedAt":"2023-06-02T10:22:18.978Z"},"/urlrichdata/https%3A%2F%2Finstagram.com%2Fshabeer_bin_khalid":{"url":"https://instagram.com/shabeer_bin_khalid","data":{"posts":[{"url":"https://www.instagram.com/p/CU2yCwWNUpx/","thumbnail":"https://storage.googleapis.com/creatorspace-public/richdata%2Finstagram%2Fposts%2FaHR0cHM6Ly9pbnN0YWdyYW0uZmFqbDMtMS5mbmEuZmJjZG4ubmV0L3YvdDUxLjI4ODUtMTUvMjQ1MDYzMjg3XzQ0ODM3OTY1NjgzNzA2MTdfNTA1OTg5NTkyNDk4NjAzNjczNl9uLndlYnA%3D.jpeg"},{"url":"https://www.instagram.com/p/CUIJjllr1BO/","thumbnail":"https://storage.googleapis.com/creatorspace-public/richdata%2Finstagram%2Fposts%2FaHR0cHM6Ly9pbnN0YWdyYW0uZmFqbDMtMS5mbmEuZmJjZG4ubmV0L3YvdDUxLjI4ODUtMTUvMjQyNTc2OTM4XzY0MTQ4NDE0NjgyMjg0N182NjU5ODM5OTYyMzI4NjMzMzMyX24uanBn.jpeg"},{"url":"https://www.instagram.com/p/CRZZb7XpfZh/","thumbnail":"https://storage.googleapis.com/creatorspace-public/richdata%2Finstagram%2Fposts%2FaHR0cHM6Ly9pbnN0YWdyYW0uZmFqbDMtMS5mbmEuZmJjZG4ubmV0L3YvdDUxLjI4ODUtMTUvMjE4OTM1NDMzXzI5OTMyMzM1MjQyNTY0MDhfNzMwMTU2NDI2MzkzMjMzOTk1M19uLmpwZw%3D%3D.jpeg"},{"url":"https://www.instagram.com/p/CRO6ganJIlV/","thumbnail":"https://storage.googleapis.com/creatorspace-public/richdata%2Finstagram%2Fposts%2FaHR0cHM6Ly9pbnN0YWdyYW0uZmFqbDMtMS5mbmEuZmJjZG4ubmV0L3YvdDUxLjI4ODUtMTUvMjEzNjM3MTE3XzExNzU3ODgwNjI5Mzc4MDhfNjQ5MTUxNjUyOTQ1MDU0NzY2MF9uLmpwZw%3D%3D.jpeg"},{"url":"https://www.instagram.com/p/CCtni4DpfsZ/","thumbnail":"https://storage.googleapis.com/creatorspace-public/richdata%2Finstagram%2Fposts%2FaHR0cHM6Ly9pbnN0YWdyYW0uZmFqbDMtMS5mbmEuZmJjZG4ubmV0L3YvdDUxLjI4ODUtMTUvMTA3OTc1ODQ2XzU5ODk4ODM2NDM3NDMyMl80NjMwMjU5NTkxNTkzNDM3Nzk3X24uanBn.jpeg"},{"url":"https://www.instagram.com/p/B_2y_vApvsH/","thumbnail":"https://storage.googleapis.com/creatorspace-public/richdata%2Finstagram%2Fposts%2FaHR0cHM6Ly9pbnN0YWdyYW0uZmFqbDMtMS5mbmEuZmJjZG4ubmV0L3YvdDUxLjI4ODUtMTUvOTU2NjM3ODFfMjc2MzU1MzczNDk2NDY4XzY2Nzc5ODgzMjMwOTE5NzA4MzNfbi5qcGc%3D.jpeg"},{"url":"https://www.instagram.com/p/B_u5UHCJY8C/","thumbnail":"https://storage.googleapis.com/creatorspace-public/richdata%2Finstagram%2Fposts%2FaHR0cHM6Ly9pbnN0YWdyYW0uZmFqbDMtMS5mbmEuZmJjZG4ubmV0L3YvdDUxLjI4ODUtMTUvOTUzMjg4MjdfMTMzNjg4NTQ2MzE2OTIyNl83ODczMTM2NTYwNjQyNDE3MzU2X24uanBn.jpeg"},{"url":"https://www.instagram.com/p/B_TrUphpDq_/","thumbnail":"https://storage.googleapis.com/creatorspace-public/richdata%2Finstagram%2Fposts%2FaHR0cHM6Ly9pbnN0YWdyYW0uZmFqbDMtMS5mbmEuZmJjZG4ubmV0L3YvdDUxLjI4ODUtMTUvOTQ3MDcwNDhfNTQ5MjMwMDU5MzAwMDYzXzg4MTc2MjE5MjI4MzQ4MjIxMF9uLmpwZw%3D%3D.jpeg"},{"url":"https://www.instagram.com/p/B7L9QxZJrAV/","thumbnail":"https://storage.googleapis.com/creatorspace-public/richdata%2Finstagram%2Fposts%2FaHR0cHM6Ly9pbnN0YWdyYW0uZmFqbDMtMS5mbmEuZmJjZG4ubmV0L3YvdDUxLjI4ODUtMTUvODIwMDUwNThfMTQ4MzQ1NzM4ODQ2OTAwMF82ODY4MTEwMjA1MTE2ODQ0ODIxX24uanBn.jpeg"},{"url":"https://www.instagram.com/p/B7DOI2kJ3N1/","thumbnail":"https://storage.googleapis.com/creatorspace-public/richdata%2Finstagram%2Fposts%2FaHR0cHM6Ly9pbnN0YWdyYW0uZmFqbDMtMS5mbmEuZmJjZG4ubmV0L3YvdDUxLjI4ODUtMTUvNzk2MDE3MzdfMjAwMjk1MjA0MzQ1MDUyXzc2MzgxMTYxOTYxOTQ0OTE0NDdfbi5qcGc%3D.jpeg"},{"url":"https://www.instagram.com/p/B5Hz-pqJ1C0/","thumbnail":"https://storage.googleapis.com/creatorspace-public/richdata%2Finstagram%2Fposts%2FaHR0cHM6Ly9pbnN0YWdyYW0uZmFqbDMtMS5mbmEuZmJjZG4ubmV0L3YvdDUxLjI4ODUtMTUvNzUyMjM1NTNfNDQ1Mjk4NDc2MDYyODI1XzM4ODQwNjgwMzU1Mzk0NjUwOV9uLmpwZw%3D%3D.jpeg"},{"url":"https://www.instagram.com/p/B3PJNclpJ8S/","thumbnail":"https://storage.googleapis.com/creatorspace-public/richdata%2Finstagram%2Fposts%2FaHR0cHM6Ly9pbnN0YWdyYW0uZmFqbDMtMS5mbmEuZmJjZG4ubmV0L3YvdDUxLjI4ODUtMTUvNjk4OTg3NThfMTY4MzE5Mzg3NTU5NDk0XzE2NDc2Mzg4NDMzOTg3NjYwOV9uLmpwZw%3D%3D.jpeg"}],"bioLink":"https://shabeersha.github.io/","profile":"https://storage.googleapis.com/creatorspace-public/richdata%2Finstagram%2Fprofiles%2FaHR0cHM6Ly9pbnN0YWdyYW0uZmFqbDMtMS5mbmEuZmJjZG4ubmV0L3YvdDUxLjI4ODUtMTkvMTQ3MDk1NjE3XzI5Mjc2ODU2NzA4ODc2ODNfNzMwMTc5NTU2MTExMTE0NDA4Nl9uLmpwZw%3D%3D.jpeg","numPosts":29,"userName":"shabeer_bin_khalid","followers":2079,"following":1344,"isPrivate":false},"status":"COMPLETED","createdAt":"2023-06-02T10:23:20.426Z","updatedAt":"2023-06-02T10:33:58.644Z"},"/urlrichdata/https%3A%2F%2Fgithub.com%2Fshabeersha":{"url":"https://github.com/shabeersha","data":{"name":"Shabeerali KT","handle":"shabeersha","followers":117,"following":15,"repositories":70,"contributions":[{"week":"2022-05-29","contributions":[{"color":"#ebedf0","count":0},{"color":"#ebedf0","count":0},{"color":"#ebedf0","count":0},{"color":"#ebedf0","count":0},{"color":"#ebedf0","count":0},{"color":"#ebedf0","count":0},{"color":"#ebedf0","count":0}]},{"week":"2022-06-05","contributions":[{"color":"#ebedf0","count":0},{"color":"#ebedf0","count":0},{"color":"#ebedf0","count":0},{"color":"#ebedf0","count":0},{"color":"#9be9a8","count":1},{"color":"#9be9a8","count":1},{"color":"#ebedf0","count":0}]},{"week":"2022-06-12","contributions":[{"color":"#ebedf0","count":0},{"color":"#ebedf0","count":0},{"color":"#ebedf0","count":0},{"color":"#ebedf0","count":0},{"color":"#ebedf0","count":0},{"color":"#ebedf0","count":0},{"color":"#ebedf0","count":0}]},{"week":"2022-06-19","contributions":[{"color":"#9be9a8","count":1},{"color":"#ebedf0","count":0},{"color":"#ebedf0","count":0},{"color":"#ebedf0","count":0},{"color":"#ebedf0","count":0},{"color":"#ebedf0","count":0},{"color":"#ebedf0","count":0}]},{"week":"2022-06-26","contributions":[{"color":"#ebedf0","count":0},{"color":"#ebedf0","count":0},{"color":"#ebedf0","count":0},{"color":"#ebedf0","count":0},{"color":"#ebedf0","count":0},{"color":"#ebedf0","count":0},{"color":"#ebedf0","count":0}]},{"week":"2022-07-03","contributions":[{"color":"#ebedf0","count":0},{"color":"#ebedf0","count":0},{"color":"#ebedf0","count":0},{"color":"#ebedf0","count":0},{"color":"#ebedf0","count":0},{"color":"#9be9a8","count":1},{"color":"#ebedf0","count":0}]},{"week":"2022-07-10","contributions":[{"color":"#ebedf0","count":0},{"color":"#ebedf0","count":0},{"color":"#ebedf0","count":0},{"color":"#9be9a8","count":1},{"color":"#ebedf0","count":0},{"color":"#ebedf0","count":0},{"color":"#ebedf0","count":0}]},{"week":"2022-07-17","contributions":[{"color":"#ebedf0","count":0},{"color":"#ebedf0","count":0},{"color":"#ebedf0","count":0},{"color":"#9be9a8","count":1},{"color":"#ebedf0","count":0},{"color":"#ebedf0","count":0},{"color":"#ebedf0","count":0}]},{"week":"2022-07-24","contributions":[{"color":"#9be9a8","count":1},{"color":"#ebedf0","count":0},{"color":"#ebedf0","count":0},{"color":"#ebedf0","count":0},{"color":"#ebedf0","count":0},{"color":"#ebedf0","count":0},{"color":"#ebedf0","count":0}]},{"week":"2022-07-31","contributions":[{"color":"#ebedf0","count":0},{"color":"#ebedf0","count":0},{"color":"#ebedf0","count":0},{"color":"#ebedf0","count":0},{"color":"#9be9a8","count":1},{"color":"#ebedf0","count":0},{"color":"#40c463","count":2}]},{"week":"2022-08-07","contributions":[{"color":"#ebedf0","count":0},{"color":"#ebedf0","count":0},{"color":"#9be9a8","count":1},{"color":"#ebedf0","count":0},{"color":"#ebedf0","count":0},{"color":"#ebedf0","count":0},{"color":"#216e39","count":5}]},{"week":"2022-08-14","contributions":[{"color":"#ebedf0","count":0},{"color":"#40c463","count":2},{"color":"#9be9a8","count":1},{"color":"#216e39","count":5},{"color":"#9be9a8","count":1},{"color":"#ebedf0","count":0},{"color":"#ebedf0","count":0}]},{"week":"2022-08-21","contributions":[{"color":"#ebedf0","count":0},{"color":"#ebedf0","count":0},{"color":"#ebedf0","count":0},{"color":"#9be9a8","count":1},{"color":"#ebedf0","count":0},{"color":"#ebedf0","count":0},{"color":"#ebedf0","count":0}]},{"week":"2022-08-28","contributions":[{"color":"#ebedf0","count":0},{"color":"#ebedf0","count":0},{"color":"#ebedf0","count":0},{"color":"#ebedf0","count":0},{"color":"#ebedf0","count":0},{"color":"#ebedf0","count":0},{"color":"#ebedf0","count":0}]},{"week":"2022-09-04","contributions":[{"color":"#ebedf0","count":0},{"color":"#ebedf0","count":0},{"color":"#9be9a8","count":1},{"color":"#ebedf0","count":0},{"color":"#ebedf0","count":0},{"color":"#ebedf0","count":0},{"color":"#ebedf0","count":0}]},{"week":"2022-09-11","contributions":[{"color":"#ebedf0","count":0},{"color":"#ebedf0","count":0},{"color":"#ebedf0","count":0},{"color":"#216e39","count":4},{"color":"#ebedf0","count":0},{"color":"#ebedf0","count":0},{"color":"#ebedf0","count":0}]},{"week":"2022-09-18","contributions":[{"color":"#ebedf0","count":0},{"color":"#ebedf0","count":0},{"color":"#ebedf0","count":0},{"color":"#9be9a8","count":1},{"color":"#ebedf0","count":0},{"color":"#9be9a8","count":1},{"color":"#ebedf0","count":0}]},{"week":"2022-09-25","contributions":[{"color":"#ebedf0","count":0},{"color":"#ebedf0","count":0},{"color":"#ebedf0","count":0},{"color":"#ebedf0","count":0},{"color":"#ebedf0","count":0},{"color":"#ebedf0","count":0},{"color":"#ebedf0","count":0}]},{"week":"2022-10-02","contributions":[{"color":"#ebedf0","count":0},{"color":"#9be9a8","count":1},{"color":"#ebedf0","count":0},{"color":"#ebedf0","count":0},{"color":"#ebedf0","count":0},{"color":"#ebedf0","count":0},{"color":"#ebedf0","count":0}]},{"week":"2022-10-09","contributions":[{"color":"#ebedf0","count":0},{"color":"#ebedf0","count":0},{"color":"#ebedf0","count":0},{"color":"#ebedf0","count":0},{"color":"#9be9a8","count":1},{"color":"#ebedf0","count":0},{"color":"#ebedf0","count":0}]},{"week":"2022-10-16","contributions":[{"color":"#40c463","count":2},{"color":"#9be9a8","count":1},{"color":"#9be9a8","count":1},{"color":"#ebedf0","count":0},{"color":"#9be9a8","count":1},{"color":"#ebedf0","count":0},{"color":"#40c463","count":2}]},{"week":"2022-10-23","contributions":[{"color":"#ebedf0","count":0},{"color":"#ebedf0","count":0},{"color":"#ebedf0","count":0},{"color":"#9be9a8","count":1},{"color":"#9be9a8","count":1},{"color":"#40c463","count":2},{"color":"#ebedf0","count":0}]},{"week":"2022-10-30","contributions":[{"color":"#ebedf0","count":0},{"color":"#ebedf0","count":0},{"color":"#ebedf0","count":0},{"color":"#9be9a8","count":1},{"color":"#9be9a8","count":1},{"color":"#ebedf0","count":0},{"color":"#ebedf0","count":0}]},{"week":"2022-11-06","contributions":[{"color":"#ebedf0","count":0},{"color":"#9be9a8","count":1},{"color":"#ebedf0","count":0},{"color":"#ebedf0","count":0},{"color":"#ebedf0","count":0},{"color":"#9be9a8","count":1},{"color":"#ebedf0","count":0}]},{"week":"2022-11-13","contributions":[{"color":"#ebedf0","count":0},{"color":"#40c463","count":2},{"color":"#ebedf0","count":0},{"color":"#ebedf0","count":0},{"color":"#ebedf0","count":0},{"color":"#9be9a8","count":1},{"color":"#ebedf0","count":0}]},{"week":"2022-11-20","contributions":[{"color":"#ebedf0","count":0},{"color":"#ebedf0","count":0},{"color":"#ebedf0","count":0},{"color":"#9be9a8","count":1},{"color":"#ebedf0","count":0},{"color":"#ebedf0","count":0},{"color":"#ebedf0","count":0}]},{"week":"2022-11-27","contributions":[{"color":"#ebedf0","count":0},{"color":"#ebedf0","count":0},{"color":"#ebedf0","count":0},{"color":"#9be9a8","count":1},{"color":"#ebedf0","count":0},{"color":"#ebedf0","count":0},{"color":"#ebedf0","count":0}]},{"week":"2022-12-04","contributions":[{"color":"#ebedf0","count":0},{"color":"#ebedf0","count":0},{"color":"#ebedf0","count":0},{"color":"#ebedf0","count":0},{"color":"#ebedf0","count":0},{"color":"#ebedf0","count":0},{"color":"#ebedf0","count":0}]},{"week":"2022-12-11","contributions":[{"color":"#ebedf0","count":0},{"color":"#ebedf0","count":0},{"color":"#ebedf0","count":0},{"color":"#ebedf0","count":0},{"color":"#ebedf0","count":0},{"color":"#ebedf0","count":0},{"color":"#ebedf0","count":0}]},{"week":"2022-12-18","contributions":[{"color":"#ebedf0","count":0},{"color":"#ebedf0","count":0},{"color":"#ebedf0","count":0},{"color":"#ebedf0","count":0},{"color":"#ebedf0","count":0},{"color":"#ebedf0","count":0},{"color":"#ebedf0","count":0}]},{"week":"2022-12-25","contributions":[{"color":"#ebedf0","count":0},{"color":"#ebedf0","count":0},{"color":"#ebedf0","count":0},{"color":"#ebedf0","count":0},{"color":"#ebedf0","count":0},{"color":"#ebedf0","count":0},{"color":"#ebedf0","count":0}]},{"week":"2023-01-01","contributions":[{"color":"#ebedf0","count":0},{"color":"#ebedf0","count":0},{"color":"#ebedf0","count":0},{"color":"#ebedf0","count":0},{"color":"#ebedf0","count":0},{"color":"#ebedf0","count":0},{"color":"#ebedf0","count":0}]},{"week":"2023-01-08","contributions":[{"color":"#ebedf0","count":0},{"color":"#ebedf0","count":0},{"color":"#ebedf0","count":0},{"color":"#ebedf0","count":0},{"color":"#ebedf0","count":0},{"color":"#ebedf0","count":0},{"color":"#ebedf0","count":0}]},{"week":"2023-01-15","contributions":[{"color":"#ebedf0","count":0},{"color":"#ebedf0","count":0},{"color":"#ebedf0","count":0},{"color":"#ebedf0","count":0},{"color":"#ebedf0","count":0},{"color":"#ebedf0","count":0},{"color":"#ebedf0","count":0}]},{"week":"2023-01-22","contributions":[{"color":"#ebedf0","count":0},{"color":"#ebedf0","count":0},{"color":"#ebedf0","count":0},{"color":"#ebedf0","count":0},{"color":"#ebedf0","count":0},{"color":"#ebedf0","count":0},{"color":"#ebedf0","count":0}]},{"week":"2023-01-29","contributions":[{"color":"#ebedf0","count":0},{"color":"#ebedf0","count":0},{"color":"#ebedf0","count":0},{"color":"#ebedf0","count":0},{"color":"#ebedf0","count":0},{"color":"#ebedf0","count":0},{"color":"#ebedf0","count":0}]},{"week":"2023-02-05","contributions":[{"color":"#ebedf0","count":0},{"color":"#ebedf0","count":0},{"color":"#ebedf0","count":0},{"color":"#ebedf0","count":0},{"color":"#ebedf0","count":0},{"color":"#ebedf0","count":0},{"color":"#ebedf0","count":0}]},{"week":"2023-02-12","contributions":[{"color":"#ebedf0","count":0},{"color":"#ebedf0","count":0},{"color":"#ebedf0","count":0},{"color":"#ebedf0","count":0},{"color":"#ebedf0","count":0},{"color":"#ebedf0","count":0},{"color":"#ebedf0","count":0}]},{"week":"2023-02-19","contributions":[{"color":"#ebedf0","count":0},{"color":"#9be9a8","count":1},{"color":"#9be9a8","count":1},{"color":"#ebedf0","count":0},{"color":"#ebedf0","count":0},{"color":"#ebedf0","count":0},{"color":"#ebedf0","count":0}]},{"week":"2023-02-26","contributions":[{"color":"#ebedf0","count":0},{"color":"#ebedf0","count":0},{"color":"#ebedf0","count":0},{"color":"#ebedf0","count":0},{"color":"#ebedf0","count":0},{"color":"#ebedf0","count":0},{"color":"#ebedf0","count":0}]},{"week":"2023-03-05","contributions":[{"color":"#ebedf0","count":0},{"color":"#ebedf0","count":0},{"color":"#ebedf0","count":0},{"color":"#ebedf0","count":0},{"color":"#ebedf0","count":0},{"color":"#ebedf0","count":0},{"color":"#ebedf0","count":0}]},{"week":"2023-03-12","contributions":[{"color":"#ebedf0","count":0},{"color":"#ebedf0","count":0},{"color":"#ebedf0","count":0},{"color":"#ebedf0","count":0},{"color":"#ebedf0","count":0},{"color":"#ebedf0","count":0},{"color":"#ebedf0","count":0}]},{"week":"2023-03-19","contributions":[{"color":"#ebedf0","count":0},{"color":"#ebedf0","count":0},{"color":"#ebedf0","count":0},{"color":"#9be9a8","count":1},{"color":"#ebedf0","count":0},{"color":"#ebedf0","count":0},{"color":"#ebedf0","count":0}]},{"week":"2023-03-26","contributions":[{"color":"#ebedf0","count":0},{"color":"#ebedf0","count":0},{"color":"#ebedf0","count":0},{"color":"#ebedf0","count":0},{"color":"#ebedf0","count":0},{"color":"#ebedf0","count":0},{"color":"#ebedf0","count":0}]},{"week":"2023-04-02","contributions":[{"color":"#ebedf0","count":0},{"color":"#ebedf0","count":0},{"color":"#ebedf0","count":0},{"color":"#ebedf0","count":0},{"color":"#ebedf0","count":0},{"color":"#ebedf0","count":0},{"color":"#ebedf0","count":0}]},{"week":"2023-04-09","contributions":[{"color":"#ebedf0","count":0},{"color":"#ebedf0","count":0},{"color":"#ebedf0","count":0},{"color":"#40c463","count":2},{"color":"#ebedf0","count":0},{"color":"#ebedf0","count":0},{"color":"#ebedf0","count":0}]},{"week":"2023-04-16","contributions":[{"color":"#ebedf0","count":0},{"color":"#ebedf0","count":0},{"color":"#ebedf0","count":0},{"color":"#ebedf0","count":0},{"color":"#ebedf0","count":0},{"color":"#ebedf0","count":0},{"color":"#ebedf0","count":0}]},{"week":"2023-04-23","contributions":[{"color":"#ebedf0","count":0},{"color":"#ebedf0","count":0},{"color":"#ebedf0","count":0},{"color":"#ebedf0","count":0},{"color":"#ebedf0","count":0},{"color":"#ebedf0","count":0},{"color":"#ebedf0","count":0}]},{"week":"2023-04-30","contributions":[{"color":"#ebedf0","count":0},{"color":"#ebedf0","count":0},{"color":"#ebedf0","count":0},{"color":"#ebedf0","count":0},{"color":"#ebedf0","count":0},{"color":"#ebedf0","count":0},{"color":"#ebedf0","count":0}]},{"week":"2023-05-07","contributions":[{"color":"#ebedf0","count":0},{"color":"#ebedf0","count":0},{"color":"#ebedf0","count":0},{"color":"#ebedf0","count":0},{"color":"#ebedf0","count":0},{"color":"#ebedf0","count":0},{"color":"#ebedf0","count":0}]},{"week":"2023-05-14","contributions":[{"color":"#ebedf0","count":0},{"color":"#ebedf0","count":0},{"color":"#ebedf0","count":0},{"color":"#ebedf0","count":0},{"color":"#ebedf0","count":0},{"color":"#ebedf0","count":0},{"color":"#ebedf0","count":0}]},{"week":"2023-05-21","contributions":[{"color":"#ebedf0","count":0},{"color":"#ebedf0","count":0},{"color":"#ebedf0","count":0},{"color":"#ebedf0","count":0},{"color":"#ebedf0","count":0},{"color":"#ebedf0","count":0},{"color":"#ebedf0","count":0}]},{"week":"2023-05-28","contributions":[{"color":"#ebedf0","count":0},{"color":"#ebedf0","count":0},{"color":"#ebedf0","count":0},{"color":"#ebedf0","count":0},{"color":"#ebedf0","count":0},{"color":"#ebedf0","count":0}]}],"totalContributions":60},"status":"COMPLETED","createdAt":"2023-06-02T10:23:48.708Z","updatedAt":"2023-06-02T10:23:49.168Z"},"/urlrichdata/https%3A%2F%2Fyoutube.com%2F%40techcodez":{"url":"https://youtube.com/@techcodez","data":{"videos":[{"url":"https://youtube.com/watch?v=vMu4LTV4lY0","title":"How to set the path and environment variables in Windows7  Windows 8, 8.1 | Techcodezz","thumbnail":"https://storage.googleapis.com/creatorspace-public/richdata%2Fyoutube%2Fvideothumbnails%2FaHR0cHM6Ly9pLnl0aW1nLmNvbS92aS92TXU0TFRWNGxZMC9tcWRlZmF1bHQuanBn.jpeg"},{"url":"https://youtube.com/watch?v=A3jQVIqFPdY","title":"Student Record Using 2D Array in C Programming Explained in Malayalam | Techcodezz","thumbnail":"https://storage.googleapis.com/creatorspace-public/richdata%2Fyoutube%2Fvideothumbnails%2FaHR0cHM6Ly9pLnl0aW1nLmNvbS92aS9BM2pRVklxRlBkWS9tcWRlZmF1bHQuanBn.jpeg"},{"url":"https://youtube.com/watch?v=XRjRWTKJwLo","title":"windows MinGW Download And Configuring","thumbnail":"https://storage.googleapis.com/creatorspace-public/richdata%2Fyoutube%2Fvideothumbnails%2FaHR0cHM6Ly9pLnl0aW1nLmNvbS92aS9YUmpSV1RLSndMby9tcWRlZmF1bHQuanBn.jpeg"},{"url":"https://youtube.com/watch?v=itbBCSf01Ns","title":"How to Get 1 Year Premium VPN For Free[Outdated]","thumbnail":"https://storage.googleapis.com/creatorspace-public/richdata%2Fyoutube%2Fvideothumbnails%2FaHR0cHM6Ly9pLnl0aW1nLmNvbS92aS9pdGJCQ1NmMDFOcy9tcWRlZmF1bHQuanBn.jpeg"},{"url":"https://youtube.com/watch?v=vWQb2MRzm0E","title":"GTA 5 PC - Mission-#15 Bz Gas Grenades","thumbnail":"https://storage.googleapis.com/creatorspace-public/richdata%2Fyoutube%2Fvideothumbnails%2FaHR0cHM6Ly9pLnl0aW1nLmNvbS92aS92V1FiMk1Sem0wRS9tcWRlZmF1bHQuanBn.jpeg"},{"url":"https://youtube.com/watch?v=PTLkBxacDPM","title":"PUBG Premium Crate Coupon Trick | Techcodezz","thumbnail":"https://storage.googleapis.com/creatorspace-public/richdata%2Fyoutube%2Fvideothumbnails%2FaHR0cHM6Ly9pLnl0aW1nLmNvbS92aS9QVExrQnhhY0RQTS9tcWRlZmF1bHQuanBn.jpeg"},{"url":"https://youtube.com/watch?v=P0zHOapsFIM","title":"How to Get Free VPS | Techcodezz","thumbnail":"https://storage.googleapis.com/creatorspace-public/richdata%2Fyoutube%2Fvideothumbnails%2FaHR0cHM6Ly9pLnl0aW1nLmNvbS92aS9QMHpIT2Fwc0ZJTS9tcWRlZmF1bHQuanBn.jpeg"},{"url":"https://youtube.com/watch?v=yzFq5J3a5jQ","title":"Background Color Change | HTML + CSS | Dynamic Color Change | 2020 Premium Account Giveaway","thumbnail":"https://storage.googleapis.com/creatorspace-public/richdata%2Fyoutube%2Fvideothumbnails%2FaHR0cHM6Ly9pLnl0aW1nLmNvbS92aS95ekZxNUozYTVqUS9tcWRlZmF1bHQuanBn.jpeg"},{"url":"https://youtube.com/watch?v=TQ4gEHzsO00","title":"Awesome Animating Navigation Bar | HTML and CSS | Easy Web Design | 2020 Plus Account Giveaway","thumbnail":"https://storage.googleapis.com/creatorspace-public/richdata%2Fyoutube%2Fvideothumbnails%2FaHR0cHM6Ly9pLnl0aW1nLmNvbS92aS9UUTRnRUh6c08wMC9tcWRlZmF1bHQuanBn.jpeg"},{"url":"https://youtube.com/watch?v=o7a4p7ZE_6c","title":"Button Hover Effect | HTML+CSS | Learn Easy HTML | 2020 Plus Account Giveaway","thumbnail":"https://storage.googleapis.com/creatorspace-public/richdata%2Fyoutube%2Fvideothumbnails%2FaHR0cHM6Ly9pLnl0aW1nLmNvbS92aS9vN2E0cDdaRV82Yy9tcWRlZmF1bHQuanBn.jpeg"},{"url":"https://youtube.com/watch?v=nIAJl_aPJBg","title":"How to Code Awesome CSS Button | HTML+CSS | 2020 Plus Account Giveaway..!!!","thumbnail":"https://storage.googleapis.com/creatorspace-public/richdata%2Fyoutube%2Fvideothumbnails%2FaHR0cHM6Ly9pLnl0aW1nLmNvbS92aS9uSUFKbF9hUEpCZy9tcWRlZmF1bHQuanBn.jpeg"},{"url":"https://youtube.com/watch?v=zw10BuvQ7SQ","title":"Awesome Check Box Using HTML and CSS | Learn HTML Easy 2020 | Techcodezz","thumbnail":"https://storage.googleapis.com/creatorspace-public/richdata%2Fyoutube%2Fvideothumbnails%2FaHR0cHM6Ly9pLnl0aW1nLmNvbS92aS96dzEwQnV2UTdTUS9tcWRlZmF1bHQuanBn.jpeg"},{"url":"https://youtube.com/watch?v=tl3cr4_C9Oo","title":"How to Create Simple Calculator Using HTML,CSS and JavaScript | Learn HTML Easy 2020 | Techcodezz","thumbnail":"https://storage.googleapis.com/creatorspace-public/richdata%2Fyoutube%2Fvideothumbnails%2FaHR0cHM6Ly9pLnl0aW1nLmNvbS92aS90bDNjcjRfQzlPby9tcWRlZmF1bHQuanBn.jpeg"},{"url":"https://youtube.com/watch?v=mX2oX2NILSg","title":"Awesome Login Form | Learn HTML \u0026 CSS | Part 2","thumbnail":"https://storage.googleapis.com/creatorspace-public/richdata%2Fyoutube%2Fvideothumbnails%2FaHR0cHM6Ly9pLnl0aW1nLmNvbS92aS9tWDJvWDJOSUxTZy9tcWRlZmF1bHQuanBn.jpeg"},{"url":"https://youtube.com/watch?v=zsJVSPH2tv0","title":"Awesome 2020 Login Form | Learn HTML and CSS | PART 1","thumbnail":"https://storage.googleapis.com/creatorspace-public/richdata%2Fyoutube%2Fvideothumbnails%2FaHR0cHM6Ly9pLnl0aW1nLmNvbS92aS96c0pWU1BIMnR2MC9tcWRlZmF1bHQuanBn.jpeg"},{"url":"https://youtube.com/watch?v=xojwb5D0-Fw","title":"Tutorial : Awesome Search Box 2020 using HTML\u0026CSS | HTML+CSS Beginners | TECHCODEZZ","thumbnail":"https://storage.googleapis.com/creatorspace-public/richdata%2Fyoutube%2Fvideothumbnails%2FaHR0cHM6Ly9pLnl0aW1nLmNvbS92aS94b2p3YjVEMC1Gdy9tcWRlZmF1bHQuanBn.jpeg"},{"url":"https://youtube.com/watch?v=MA6mtGC1VlE","title":"Responsive Navigation Menu Bar Using HTML and CSS | Tutorial For Beginners| Techcodezz","thumbnail":"https://storage.googleapis.com/creatorspace-public/richdata%2Fyoutube%2Fvideothumbnails%2FaHR0cHM6Ly9pLnl0aW1nLmNvbS92aS9NQTZtdEdDMVZsRS9tcWRlZmF1bHQuanBn.jpeg"},{"url":"https://youtube.com/watch?v=VqvlvQ2PlSo","title":"TIKTOK Effect - HTML+CSS Tutorial | TECHCODEZZ","thumbnail":"https://storage.googleapis.com/creatorspace-public/richdata%2Fyoutube%2Fvideothumbnails%2FaHR0cHM6Ly9pLnl0aW1nLmNvbS92aS9WcXZsdlEyUGxTby9tcWRlZmF1bHQuanBn.jpeg"},{"url":"https://youtube.com/watch?v=hwOfAnUGuY8","title":"Call Of Duty Mobile-Gungame | Gameplay | Techcodezz","thumbnail":"https://storage.googleapis.com/creatorspace-public/richdata%2Fyoutube%2Fvideothumbnails%2FaHR0cHM6Ly9pLnl0aW1nLmNvbS92aS9od09mQW5VR3VZOC9tcWRlZmF1bHQuanBn.jpeg"},{"url":"https://youtube.com/watch?v=iQpn8YPzWFw","title":"PUBG Mobile Gameplay Snow map - Vikendi[Techcodezz]","thumbnail":"https://storage.googleapis.com/creatorspace-public/richdata%2Fyoutube%2Fvideothumbnails%2FaHR0cHM6Ly9pLnl0aW1nLmNvbS92aS9pUXBuOFlQeldGdy9tcWRlZmF1bHQuanBn.jpeg"},{"url":"https://youtube.com/watch?v=lhR_R20DzSM","title":"How To Hide Any Data Behind Image | Malayalam | 2020 | Stenography","thumbnail":"https://storage.googleapis.com/creatorspace-public/richdata%2Fyoutube%2Fvideothumbnails%2FaHR0cHM6Ly9pLnl0aW1nLmNvbS92aS9saFJfUjIwRHpTTS9tcWRlZmF1bHQuanBn.jpeg"}],"numVideos":24,"channelName":"Techcodez","subscribers":1460,"channelHandle":"@Techcodez"},"status":"COMPLETED","createdAt":"2023-06-02T10:23:56.204Z","updatedAt":"2023-06-02T10:24:00.185Z"}}},"__N_SSG":true},"page":"/[handle]","query":{"handle":"shabeerali"},"buildId":"U5oXCg7k1oEaoOJZuQ_e4","isFallback":false,"gsp":true,"locale":"en","locales":["en"],"defaultLocale":"en","scriptLoader":[]}
+</script>
+ 
 </body>
+
 </html>
